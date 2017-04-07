@@ -1,0 +1,20 @@
+<ion-header>
+
+  	<ion-navbar color="primary" no-border-bottom>
+    	<button ion-button menuToggle>
+	    	<ion-icon name="menu"></ion-icon>
+    	</button>
+    	<ion-title>Sobre la aplicación</ion-title>
+  	</ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="card-background-page">
+
+	<ion-card *ngFor="let p of tarjetas" (click)="itemTapped($event, p)">
+	    <img src="{{p.img}}"/>
+	    <div class="card-title">{{p.title}}</div>
+	</ion-card>
+
+</ion-content>

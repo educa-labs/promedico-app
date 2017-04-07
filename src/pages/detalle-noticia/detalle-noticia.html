@@ -1,0 +1,14 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ noticiaSeleccionada.title }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<img [src]="noticiaSeleccionada.foto">
+	<h1>{{ noticiaSeleccionada.title }}</h1>
+	<p>{{ noticiaSeleccionada.texto }}</p>
+</ion-content>

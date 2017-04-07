@@ -1,0 +1,47 @@
+<!-- Header con título de la página -->
+<ion-header>
+	<ion-navbar>
+		<ion-title>Login</ion-title>
+	</ion-navbar>
+</ion-header>
+<!-- Termina Header -->
+
+
+<ion-content>
+	<!-- Form de login -->
+	<div class="login-box">
+		<form (ngSubmit)="login()" #registerForm="ngForm">
+			<ion-row>
+				<ion-col>
+					<ion-list inset>
+						<!-- Input de Email -->
+						<ion-item>
+							<ion-label floating>Email</ion-label>
+							<ion-input type="text" name="mail" [(ngModel)]="registerCredentials.mail" required></ion-input>
+						</ion-item>
+
+						<!-- Input de Password -->
+						<ion-item>
+							<ion-label floating>Contraseña</ion-label>
+              				<ion-input type="password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>
+            			</ion-item>
+            			<br>
+
+            		</ion-list>
+            	</ion-col>
+            </ion-row>
+
+            <!-- Espacio para boton de Iniciar sesión y registrarse -->
+            <ion-row>
+            	<ion-col class="signup-col">
+            		<!-- Iniciar sesión -->
+            		<button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid">Iniciar Sesión</button>
+            		<!-- Registrarse -->
+            		<button ion-button class="register-btn" block clear (click)="createAccount()">Crear una cuenta</button>
+            	</ion-col>
+            </ion-row>
+
+		</form>
+		<!-- Termina Form de Iniciar Sesión -->
+	</div>       
+</ion-content>

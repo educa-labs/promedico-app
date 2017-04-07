@@ -1,0 +1,80 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Nueva Actividad</ion-title>
+    <!-- Boton de agregar actividad-->
+    <ion-buttons end>
+      	<button ion-button icon-only (click)="nuevaActividad()">
+        	<ion-icon name="checkmark" ></ion-icon>
+      	</button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+	<ion-list>
+		<!-- Titulo de la reflexion | NgModel: -->
+		<ion-item>
+		    <ion-label floating>Título</ion-label>
+		    <ion-input type="text" [(ngModel)]='credenciales.titulo' ></ion-input>
+		</ion-item>
+		<br>
+
+		<!-- Fecha de la reflexion | NgModel: -->
+		<ion-item>
+     		<ion-label>Fecha</ion-label>
+      		<ion-datetime displayFormat="DD MM YYYY" [(ngModel)]='credenciales.fecha'></ion-datetime>
+    	</ion-item>
+    	<br>
+
+    	<!-- Tipo de la actividad | NgModel: -->
+		<ion-item>
+		    <ion-label>Tipo de actividad</ion-label>
+		    <ion-select [(ngModel)]='credenciales.tipo'>
+		      <ion-option *ngFor="let p of tipos" [value]="p.id">{{ p.titulo }}</ion-option>
+		    </ion-select>
+		</ion-item>
+		<br>
+
+		<!-- Tags | NgModel: credenciales.tags -->
+		<ion-item *ngFor="let p of tags">
+			<ion-label>{{ p.titulo }}</ion-label>
+			<ion-checkbox checked="false" (click)="agregarTag(p.id, p.checked)" ></ion-checkbox>
+		</ion-item>
+	
+
+		<ion-item>
+			<ion-label>Tags</ion-label>
+			<ion-select [(ngModel)]='credenciales.tags' multiple="true">
+				<ion-option *ngFor="let p of tags" [value]="p.id" >{{ p.titulo }}</ion-option>
+			</ion-select>
+		</ion-item>
+
+		<!-- <div>
+			<button ion-button round strong="false" small *ngFor="let p of tags">
+				{{ p.titulo }}
+			</button>
+		</div>
+		<ion-item *ngFor="let p of tags"> 
+			<ion-label>{{ p.titulo }} </ion-label>
+			<ion-checkbox color="primary"></ion-checkbox>
+		</ion-item>
+		
+		<div *ngFor="let p of pages">
+			<button ion-button [color]="p.color" [outline]="p.isOutline" round (click)="itemTapped($event, p)" strong="false" small>
+	  			{{p.title}}
+			</button>
+		</div> -->
+
+		<!-- Relexion | NgModel: -->
+		<ion-item>
+	    	<ion-label floating>Reflexión</ion-label>
+	    	<ion-textarea rows="6" [(ngModel)]='credenciales.reflexion'></ion-textarea>
+    	</ion-item>
+
+	</ion-list>          
+		
+</ion-content>

@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Actividades</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+  <!-- Swipe to refresh -->
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <!-- FAB con boton para agregar -->
+  <ion-fab right bottom>
+    <button ion-fab color="primary" (click)="agregarActividad($event)"><ion-icon name="add"></ion-icon></button>
+  </ion-fab>
+
+  <!-- Tarjetas con las actividades -->
+  <ion-card *ngFor="let item of info" (click)="itemTapped($event, item)">
+
+    <ion-card-content>
+      <p><font color="#757575">
+        {{ item.tipo[0] }} · {{ item.fecha }}
+      </font></p>
+      
+      <ion-card-title>
+        {{ item.titulo }}
+      </ion-card-title>
+
+      <div *ngFor="let p of item.tags" style="padding-right: 3px;">
+        <button ion-button  round strong="false" small padding [color]="p.color">
+            {{p.title}}
+        </button>
+      </div>
+          
+    </ion-card-content>
+  </ion-card>
+
+<!--   <ion-card *ngFor="let item of actividades" (click)="itemTapped($event, item)">
+
+    <ion-card-content>
+      <p><font color="#757575">
+        Charlas · {{ item.fecha }}
+      </font></p>
+      
+      <ion-card-title>
+        {{ item.title }}
+      </ion-card-title>
+
+      <div *ngFor="let p of item.tags">
+        <button ion-button  [color]="p.color" round strong="false" small>
+            {{p.title}}
+        </button>
+      </div>
+          
+    </ion-card-content>
+  </ion-card>
+
+  <div *ngIf="selectedItem" padding>
+    You navigated here from <b>{{selectedItem.id}}</b>
+  </div> -->
+</ion-content>

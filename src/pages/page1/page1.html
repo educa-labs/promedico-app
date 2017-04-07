@@ -1,0 +1,82 @@
+<ion-header >
+  <ion-navbar color="primary" no-border-bottom>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Inicio</ion-title>
+  </ion-navbar>
+
+
+  <!-- Toolbar con paginas pestañas en el inicio -->
+  <ion-toolbar no-border-top no-border-bottom color="primary">
+    <ion-segment [(ngModel)]="pet" color="light">
+      <ion-segment-button value="pag1" >
+        Total
+      </ion-segment-button>
+    
+      <ion-segment-button value="pag2">
+        Con reflexión
+      </ion-segment-button>
+      
+      <ion-segment-button value="pag3">
+        Completo
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+
+  
+</ion-header>
+
+<ion-content>
+
+  <!-- Swipe to refresh -->
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <!-- FAB con boton para agregar -->
+  <ion-fab right bottom>
+    <button ion-fab color="primary" (click)="itemTapped($event)"><ion-icon name="add"></ion-icon></button>
+  </ion-fab>
+
+
+  <div [ngSwitch]="pet" >
+    <div *ngSwitchCase="'pag1'">
+
+        <ion-card *ngFor="let item of tab1" (click)="verTag($event, item)" [color]="item.color">
+          <ion-card-content class="item-note">
+            {{ item.titulo }}
+          <br>
+          <div class="puntaje">
+            {{ item.puntaje_usuario }} / {{ item.meta }}
+          </div>
+          </ion-card-content>
+        </ion-card>
+    </div>
+
+    <div *ngSwitchCase="'pag2'" > 
+      <ion-card *ngFor="let item of tab2" (click)="verTag($event, item)" [color]="item.color">
+        <ion-card-content class="item-note">
+          {{ item.titulo }}
+          <br>
+          <div class="puntaje">
+            {{ item.puntaje_usuario }} / {{ item.meta }}
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <div *ngSwitchCase="'pag3'">
+      <ion-card *ngFor="let item of tab3" (click)="verTag($event, item)" [color]="item.color">
+        <ion-card-content class="item-note">
+          {{ item.titulo }}
+          <br>
+          <div class="puntaje">
+            {{ item.puntaje_usuario }} / {{ item.meta }}
+          </div>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+
+</ion-content>

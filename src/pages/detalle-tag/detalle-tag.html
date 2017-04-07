@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar [color]="tagSeleccionado.color" no-border-bottom> 
+    <ion-title>{{ tagSeleccionado.titulo }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+	<div padding>
+		{{ tagSeleccionado.descripcion }}
+	</div>
+
+	<ion-card *ngFor="let item of actividades" (click)="verActividad($event, item)">
+
+	    <ion-card-content>
+	      <p><font color="#757575">
+	        {{ item.tipo[0] }} · {{ item.fecha }}
+	      </font></p>
+	      
+	      <ion-card-title>
+	        {{ item.titulo }}
+	      </ion-card-title>
+
+	      <div *ngFor="let p of item.tags" style="padding-right: 3px;">
+	        <button ion-button round strong="false" small padding [color]="p.color">
+	            {{p.title}}
+	        </button>
+	      </div>
+	          
+	    </ion-card-content>
+  	</ion-card>
+
+</ion-content>

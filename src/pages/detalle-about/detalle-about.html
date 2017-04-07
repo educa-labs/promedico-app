@@ -1,0 +1,14 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ tarjetaseleccionada.title }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+	<p *ngFor="let n of tarjetaseleccionada.detalle">
+		{{ n }}
+	</p>
+</ion-content>

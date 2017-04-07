@@ -1,0 +1,22 @@
+<ion-menu id="menu" [content]="content">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
+        {{p.title}}
+      </button>
+      <div style="position: absolute; bottom: 0px; width: 100%">
+        <button menuClose ion-item (click)="cerrarSesion()">Cerrar Sesión</button>
+      </div>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<!-- Activar SwipeBack -->
+<ion-nav [root]="rootPage" #content swipeBackEnabled="true"></ion-nav>
