@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.alemanapp249985" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>AlemanApp</name>
-    <description>An awesome Ionic/Cordova app.</description>
+<widget id="com.EducaLabs.Promedico" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Promedico</name>
+    <description>Medico progreso continuo.</description>
     <author email="felipe@educalabs.cl" href="http://educalabs.cl/">EducaLabs Limitada</author>
     <content src="index.html" />
     <access origin="*" />
@@ -15,6 +15,7 @@
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>
+    
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
