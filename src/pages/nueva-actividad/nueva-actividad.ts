@@ -82,11 +82,27 @@ export class NuevaActividadPage {
       })
   }
 
-  agregarTag(tag_id, checked) {
-    alert(checked)
-    this.credenciales.tags.push(tag_id)
-    alert(this.credenciales.tags)
-    
+  agregarTag(p) {
+    p.pico = !p.pico;
+    if (this.credenciales.tags.length == 0) {
+      this.credenciales.tags.push(p.id)
+    }
+
+    else {
+      //
+      if (p.pico == false) {
+          this.credenciales.tags.push(p.id)
+      }
+      for (let i in this.credenciales.tags) {
+        
+        if (this.credenciales.tags[i] === p.id && p.pico == true) {
+          this.credenciales.tags.splice(i, 1)
+        }
+      }
+    }
+
+    console.log(this.credenciales.tags)
+
   }
 
 

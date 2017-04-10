@@ -37,21 +37,14 @@
 		      <ion-option *ngFor="let p of tipos" [value]="p.id">{{ p.titulo }}</ion-option>
 		    </ion-select>
 		</ion-item>
-		<br>
+		<br>	
 
-		<!-- Tags | NgModel: credenciales.tags -->
-		<ion-item *ngFor="let p of tags">
-			<ion-label>{{ p.titulo }}</ion-label>
-			<ion-checkbox checked="false" (click)="agregarTag(p.id, p.checked)" ></ion-checkbox>
-		</ion-item>
-	
-
-		<ion-item>
+		<!-- <ion-item>
 			<ion-label>Tags</ion-label>
 			<ion-select [(ngModel)]='credenciales.tags' multiple="true">
 				<ion-option *ngFor="let p of tags" [value]="p.id" >{{ p.titulo }}</ion-option>
 			</ion-select>
-		</ion-item>
+		</ion-item> -->
 
 		<!-- <div>
 			<button ion-button round strong="false" small *ngFor="let p of tags">
@@ -61,13 +54,14 @@
 		<ion-item *ngFor="let p of tags"> 
 			<ion-label>{{ p.titulo }} </ion-label>
 			<ion-checkbox color="primary"></ion-checkbox>
-		</ion-item>
-		
-		<div *ngFor="let p of pages">
-			<button ion-button [color]="p.color" [outline]="p.isOutline" round (click)="itemTapped($event, p)" strong="false" small>
-	  			{{p.title}}
+		</ion-item> -->
+
+		<!-- Tags | NgModel: credenciales.tags -->
+		<div *ngFor="let p of tags" >
+			<button ion-button [color]="p.color" [outline]="p.pico" round (click)="agregarTag(p)" strong="false" small>
+	  			{{p.titulo}}
 			</button>
-		</div> -->
+		</div> 
 
 		<!-- Relexion | NgModel: -->
 		<ion-item>
