@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/eavillagran/Escritorio/Github/alemanapp/App/platforms/android/CordovaLib/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/eavillagran/Escritorio/Github/alemanapp/App/platforms/android/CordovaLib/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/felipe/Desktop/Programacion/EducaLabs/promedico-front/platforms/android/CordovaLib/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/felipe/Desktop/Programacion/EducaLabs/promedico-front/platforms/android/CordovaLib/src/debug/shaders"/></dataSet></merger>
