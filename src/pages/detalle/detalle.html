@@ -19,14 +19,10 @@ tiene toda la información de la actividad pedida. -->
 		</font></p>
 	<!-- Titulo de la actividad -->
 	<h1>{{ selectedItem.titulo }}</h1>
-
 	<!-- Div que repite los tags de la actividad pedida -->
-	<div *ngFor="let p of selectedItem.tags" style="padding: 3px;">
-		<button ion-button  [color]="p.color" round strong="false" small>
-			{{p.title}}
-		</button>
-	</div>
-
+	<button ion-button *ngFor="let p of selectedItem.tags" [color]="p.color" round strong="false" small>
+		{{p.title}}
+	</button>
 	<!-- Reflexión de la actividad -->
 	<h1>Reflexion</h1>
 	<p>{{ selectedItem.reflexion }}

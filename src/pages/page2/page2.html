@@ -32,8 +32,8 @@
         {{ item.titulo }}
       </ion-card-title>
 
-      <div *ngFor="let p of item.tags" style="padding-right: 3px;">
-        <button ion-button  round strong="false" small padding [color]="p.color">
+      <div >
+        <button *ngFor="let p of item.tags" ion-button  round strong="false" small padding [color]="p.color">
             {{p.title}}
         </button>
       </div>
