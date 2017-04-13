@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { StatusBar } from 'ionic-native';
 // Importar Providers
 import { ActividadesProvider } from '../../providers/actividades-provider';
 import { Auth } from '../../providers/auth';
@@ -25,6 +26,8 @@ export class DetalleTagPage {
 	// Actividades del tag seleccionado
 	actividades: any;
 
+	color: any;
+
 	constructor(
 		public navCtrl: NavController, 
 		public navParams: NavParams, 
@@ -45,6 +48,30 @@ export class DetalleTagPage {
 			.then(data => {
 				this.actividades = data;
 			})
+		// Cambiar el valor de la variable color llamando a la funcion cambiarColor
+		this.color = this.cambiarColor(this.tagSeleccionado.color);	
+		// Cambiar el color de la barra de navegacion
+		// StatusBar.backgroundColorByHexString(this.color);	
+	}
+
+	cambiarColor(valor) {
+		/* cambiarColor: funcion para cambiar el valor de la variable color segun 
+		el color del tag */
+		if (valor == 'seguridad') {
+			return '#F56363'
+		}
+
+		else if (valor == 'confianza') {
+			return '#19D0A7'
+		}
+
+		else if (valor == 'conocimiento') {
+			return '#A36FF7'
+		}
+
+		else if (valor == 'comunicacion') {
+			return '#FB8F58'
+		}
 	}
 
 	verActividad(event, item) {

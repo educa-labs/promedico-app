@@ -1,60 +1,60 @@
+<!-- Registro: Pagina de registro para registrarse dentro de la 
+aplicación. Es parte de la navegacion con login -->
 <ion-header>
-
   <ion-navbar>
     <ion-title>Registro</ion-title>
   </ion-navbar>
-
 </ion-header>
 
-
 <ion-content>
+	<!-- Div que tiene todo el registro -->
 	<div class="login-box">
+		<!-- Form del registro -->
 		<form (ngSubmit)="register()" #registerForm="ngForm">
 			<ion-row>
 				<ion-col>
+					<!-- Lista de elementos con inputs -->
 					<ion-list>
-
+						<!-- Input de Email -->
 						<ion-item>
 							<ion-label floating>Email</ion-label>
 							<ion-input type="text" name="email" [(ngModel)]="registerCredentials.mail" required></ion-input>
 						</ion-item>
-
+						<!-- Input de Nombre -->
 						<ion-item>
 							<ion-label floating>Nombre</ion-label>
 							<ion-input type="text" name="nombre" [(ngModel)]="registerCredentials.nombre" required></ion-input>
 						</ion-item><br>
-
+						<!-- Select de las clinicas -->
 						<ion-item>
 		    				<ion-label>Clínica</ion-label>
 		    				<ion-select (ionChange)="getDeptos($event, registerCredentials.clinica)" [(ngModel)]="registerCredentials.clinica" [ngModelOptions]="{standalone: true}">
 		      					<ion-option *ngFor="let p of clinicas" [value]="p.id" (click)="getDeptos(p.id)">{{p.title}}</ion-option>
 		    				</ion-select>
 						</ion-item><br>
-
-
+						<!-- Select del departamento, se carga cada vez que se seleccione
+						una clinica -->
 						<ion-item>
 		    				<ion-label>Departamento</ion-label>
 		    				<ion-select [(ngModel)]="registerCredentials.departamento" [ngModelOptions]="{standalone: true}">
 		      					<ion-option *ngFor="let p of deptos" [value]="p.id">{{p.title}}</ion-option>
 		    				</ion-select>
 						</ion-item>
-
+						<!-- Input de contraseña -->
 						<ion-item>
 							<ion-label floating>Contraseña</ion-label>
 							<ion-input type="password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>
 						</ion-item><br>
-
 					</ion-list>
 				</ion-col>
 			</ion-row>
-
+			<!-- Espacio para registrarse -->
 			<ion-row>
 				<ion-col class="signup-col">
+					<!-- Boton de registro -->
 					<button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid">Registro</button>
 				</ion-col>
 			</ion-row>
 		</form>
 	</div>
-
-
 </ion-content>

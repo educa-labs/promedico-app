@@ -1,97 +1,67 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
 // Importar Pagina de Detalle
 import { DetallePage } from '../detalle/detalle';
 import { NuevaActividadPage } from '../nueva-actividad/nueva-actividad'
-
 // Importar Provider
 import { ActividadesProvider } from '../../providers/actividades-provider';
 import { Auth } from '../../providers/auth';
 
-
 @Component({
-  selector: 'page-page2',
-  templateUrl: 'page2.html',
-  providers: [ActividadesProvider]
+	selector: 'page-page2',
+	templateUrl: 'page2.html',
+	providers: [ActividadesProvider]
 })
 export class Page2 {
+	/* Pagina de actividades: se muestra una lista de las actividades del usuario
+	actual. Tiene navegacion el con detalle de cada actividad */
 
-  // Actividad seleccionada
-  selectedItem: any;
+	// Actividad seleccionada
+	selectedItem: any;
+	// Actividades
+	actividades: any;
+	token: any;
 
-  items: any[];
+	constructor(
+		public navCtrl: NavController, 
+		public navParams: NavParams, 
+		public actividades_provider: ActividadesProvider, 
+		private auth: Auth) {
+			// Configurar para navegacion
+			this.selectedItem = navParams.get('item');
+			// Token del usuario actual
+			this.token = {token: this.auth.getUserInfo().token}
+			// Recibir información de las actividades
+			this.cargarActividades();
+	}
 
-  // Actividades
-  actividades: Array<{id: any, title: string, detalle: string, fecha: any, tags: any}>;
+	itemTapped(event, item) {
+		/* itemTapped: al apretar una actividad se pushea la pagina
+		de detalle y se pasa la informacion */
+		this.navCtrl.push(DetallePage, {
+			// Pasar información a la nueva página
+			item: item
+		});
+	}
 
-  info: any;
-  token: any;
+	agregarActividad(event) {
+		/* agregarActividad: al apretar el FAB se pushea la pagina */
+		this.navCtrl.push(NuevaActividadPage,{});
+	}
 
-  // Elementos para fecha
-  d : any;
-  dia: any;
-  mes: any;
-  year: any; 
+	cargarActividades() {
+		/* cargarActividades: funcion para cargar las actividades del 
+		usuario actual */
+		this.actividades_provider.getActividades(this.token)
+			.then(data => {
+				// Guardar la informacion en la variable actuvidades
+				this.actividades = data
+			})
+	}
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public actividades_provider: ActividadesProvider, private auth: Auth) {
-    // Navegacion
-    this.selectedItem = navParams.get('item');
-
-    this.token = {token: this.auth.getUserInfo().token}
-
-    // Elementos para fecha
-    this.d = new Date();
-    this.dia = this.d.getDate();
-    this.mes = this.d.getMonth();
-    this.year = this.d.getFullYear();
-
-
-    this.cargarActividades();
-
-    // Recibir información de las actividades
-    this.actividades = [
-      {id: 1, title: "Primera Charla", fecha: this.dia + "/" + this.mes + "/" + this.year, detalle : "Detalle de la charla número uno", tags: [{ title: 'Manteniendo la confianza', component: '', color: 'confianza' }, { title: 'Conocimiento, habilidades' , component: '', color: 'conocimiento' }, { title: 'Seguridad y calidad', component: '', color: 'seguridad' }]},
-      {id: 2, title: "Segunda Charla", fecha: this.dia + "/" + this.mes + "/" + this.year, detalle : "Detalle de la charla número dos", tags: [{ title: 'Manteniendo la confianza', component: '', color: 'confianza' }, { title: 'Trabajo en equipo', component: '', color: 'comunicacion'}, { title: 'Seguridad y calidad', component: '', color: 'seguridad' }]},
-      {id: 3, title: "Tercera Charla", fecha: this.dia + "/" + this.mes + "/" + this.year, detalle : "Detalle de la charla número tres", tags: [{ title: 'Trabajo en equipo', component: '', color: 'comunicacion' }, { title: 'Conocimiento, habilidades' , component: '', color: 'conocimiento' }]},
-      {id: 4, title: "Cuarta Charla", fecha: this.dia + "/" + this.mes + "/" + this.year, detalle : "Detalle de la charla número cuatro", tags : [{ title: 'Trabajo en equipo', component: '', color: 'comunicacion'}, ]},
-      {id: 5, title: "Quinta Charla", fecha: this.dia + "/" + this.mes + "/" + this.year, detalle : "Detalle de la charla número cinco", tags: [{ title: 'Trabajo en equipo', component: '', color: 'comunicacion'}, { title: 'Conocimiento, habilidades' , component: '', color: 'conocimiento' },{ title: 'Seguridad y calidad', component: '', color: 'seguridad' }]}
-
-    ];
-
-    this.items = [];
-    for (let i = 1; i < 11; i++) {
-      this.items.push({
-        text: 'Item ' + i,
-        fecha: this.dia + "/" + this.mes + "/" + this.year,
-        id: i
-      });
-    }
-  }
-
-  itemTapped(event, item) {
-     // Pushear a la pagina con el item
-    this.navCtrl.push(DetallePage, {
-      item: item
-    });
-  }
-
-  agregarActividad(event) {
-    // Pushear a la pagina 
-    this.navCtrl.push(NuevaActividadPage, {});
-  }
-
-  cargarActividades() {
-    this.actividades_provider.getActividades(this.token)
-      .then(data => {
-        this.info = data
-      })
-  }
-
-  doRefresh(refresher) {
-    this.navCtrl.setRoot(Page2)
-  }
-
-
-
+	doRefresh(refresher) {
+		/* doRefresh: funcion para refrescar el contenido de las paginas
+		convierte la pagina Root en la pagina de actividades */
+		this.navCtrl.setRoot(Page2)
+	}
 }

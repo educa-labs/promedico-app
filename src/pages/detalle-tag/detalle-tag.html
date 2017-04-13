@@ -23,11 +23,9 @@ Además se muestran las actividades del usuario que tinen el tag seleccionado --
 	     	<!-- Titulo de la actividad -->
 	    	<ion-card-title>{{ item.titulo }}</ion-card-title>
 	    	<!-- Repetir los tags de la actividad -->
-	      	<div *ngFor="let p of item.tags" style="padding-right: 3px;">
-	        	<button ion-button round strong="false" small padding [color]="p.color">
-	            	{{p.title}}
-	        	</button>
-	      	</div>      
+	        <button *ngFor="let p of item.tags" ion-button round strong="false" small padding [color]="p.color">
+	            {{p.title}}
+	        </button>
 	    </ion-card-content>
   	</ion-card>
 </ion-content>

@@ -5146,17 +5146,17 @@ ion-badge:empty {
 
 .badge-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .badge-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .badge-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .badge-md {
@@ -5202,17 +5202,17 @@ ion-badge:empty {
 
 .badge-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .badge-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .badge-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .badge-wp {
@@ -5258,17 +5258,17 @@ ion-badge:empty {
 
 .badge-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .badge-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .badge-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .button {
@@ -5701,27 +5701,27 @@ button[disabled],
 
 .button-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .button-ios-confianza.activated {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .button-clear-ios-confianza {
   border-color: transparent;
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
@@ -5730,32 +5730,32 @@ button[disabled],
 }
 
 .button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .button-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .button-ios-conocimiento.activated {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .button-clear-ios-conocimiento {
   border-color: transparent;
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
@@ -5764,32 +5764,32 @@ button[disabled],
 }
 
 .button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .button-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .button-ios-comunicacion.activated {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .button-clear-ios-comunicacion {
   border-color: transparent;
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
@@ -5798,7 +5798,7 @@ button[disabled],
 }
 
 .button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .button-strong-ios {
@@ -6293,15 +6293,15 @@ button[disabled],
 
 .button-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .button-md-confianza:hover:not(.disable-hover) {
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .button-md-confianza.activated {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
   opacity: 1;
 }
 
@@ -6310,8 +6310,8 @@ button[disabled],
 }
 
 .button-outline-md-confianza {
-  border-color: #4cd8b8;
-  color: #4cd8b8;
+  border-color: #25d2ab;
+  color: #25d2ab;
   background-color: transparent;
 }
 
@@ -6324,12 +6324,12 @@ button[disabled],
 }
 
 .button-outline-md-confianza .button-effect {
-  background-color: #4cd8b8;
+  background-color: #25d2ab;
 }
 
 .button-clear-md-confianza {
   border-color: transparent;
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
@@ -6339,30 +6339,30 @@ button[disabled],
 }
 
 .button-clear-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .button-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .button-md-conocimiento:hover:not(.disable-hover) {
-  background-color: #F8E71C;
+  background-color: #A36FF7;
 }
 
 .button-md-conocimiento.activated {
-  background-color: #e4d51a;
+  background-color: #9666e3;
   opacity: 1;
 }
 
 .button-md-conocimiento .button-effect {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .button-outline-md-conocimiento {
-  border-color: #ecdb1b;
-  color: #ecdb1b;
+  border-color: #9b69eb;
+  color: #9b69eb;
   background-color: transparent;
 }
 
@@ -6375,12 +6375,12 @@ button[disabled],
 }
 
 .button-outline-md-conocimiento .button-effect {
-  background-color: #ecdb1b;
+  background-color: #9b69eb;
 }
 
 .button-clear-md-conocimiento {
   border-color: transparent;
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
@@ -6390,20 +6390,20 @@ button[disabled],
 }
 
 .button-clear-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .button-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .button-md-comunicacion:hover:not(.disable-hover) {
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .button-md-comunicacion.activated {
-  background-color: #b18eeb;
+  background-color: #e78451;
   opacity: 1;
 }
 
@@ -6412,8 +6412,8 @@ button[disabled],
 }
 
 .button-outline-md-comunicacion {
-  border-color: #b692f2;
-  color: #b692f2;
+  border-color: #ee8854;
+  color: #ee8854;
   background-color: transparent;
 }
 
@@ -6426,12 +6426,12 @@ button[disabled],
 }
 
 .button-outline-md-comunicacion .button-effect {
-  background-color: #b692f2;
+  background-color: #ee8854;
 }
 
 .button-clear-md-comunicacion {
   border-color: transparent;
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
@@ -6441,7 +6441,7 @@ button[disabled],
 }
 
 .button-clear-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .button-strong-md {
@@ -6831,35 +6831,35 @@ button[disabled],
 
 .button-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .button-wp-confianza:hover:not(.disable-hover) {
-  border-color: #4ad1b2;
-  background-color: #50E3C2;
+  border-color: #2bd4ae;
+  background-color: #19D0A7;
 }
 
 .button-wp-confianza.activated {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .button-outline-wp-confianza {
-  border-color: #4cd8b8;
-  color: #4cd8b8;
+  border-color: #25d2ab;
+  color: #25d2ab;
   background-color: transparent;
 }
 
 .button-outline-wp-confianza:hover:not(.disable-hover) {
-  border-color: #4cd8b8;
+  border-color: #25d2ab;
   background-color: rgba(158, 158, 158, 0.1);
 }
 
 .button-outline-wp-confianza.activated {
-  background-color: rgba(76, 216, 184, 0.16);
+  background-color: rgba(37, 210, 171, 0.16);
 }
 
 .button-clear-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
@@ -6868,40 +6868,40 @@ button[disabled],
 }
 
 .button-clear-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .button-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .button-wp-conocimiento:hover:not(.disable-hover) {
-  border-color: #e4d51a;
-  background-color: #F8E71C;
+  border-color: #9666e3;
+  background-color: #A36FF7;
 }
 
 .button-wp-conocimiento.activated {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .button-outline-wp-conocimiento {
-  border-color: #ecdb1b;
-  color: #ecdb1b;
+  border-color: #9b69eb;
+  color: #9b69eb;
   background-color: transparent;
 }
 
 .button-outline-wp-conocimiento:hover:not(.disable-hover) {
-  border-color: #ecdb1b;
+  border-color: #9b69eb;
   background-color: rgba(158, 158, 158, 0.1);
 }
 
 .button-outline-wp-conocimiento.activated {
-  background-color: rgba(236, 219, 27, 0.16);
+  background-color: rgba(155, 105, 235, 0.16);
 }
 
 .button-clear-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
@@ -6910,40 +6910,40 @@ button[disabled],
 }
 
 .button-clear-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .button-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .button-wp-comunicacion:hover:not(.disable-hover) {
-  border-color: #b18eeb;
-  background-color: #C09AFF;
+  border-color: #e78451;
+  background-color: #FB8F58;
 }
 
 .button-wp-comunicacion.activated {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .button-outline-wp-comunicacion {
-  border-color: #b692f2;
-  color: #b692f2;
+  border-color: #ee8854;
+  color: #ee8854;
   background-color: transparent;
 }
 
 .button-outline-wp-comunicacion:hover:not(.disable-hover) {
-  border-color: #b692f2;
+  border-color: #ee8854;
   background-color: rgba(158, 158, 158, 0.1);
 }
 
 .button-outline-wp-comunicacion.activated {
-  background-color: rgba(182, 146, 242, 0.16);
+  background-color: rgba(238, 136, 84, 0.16);
 }
 
 .button-clear-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
@@ -6952,7 +6952,7 @@ button[disabled],
 }
 
 .button-clear-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .button-strong-wp {
@@ -7134,21 +7134,21 @@ ion-card-content {
 .card-ios-primary .card-header-ios-confianza,
 .card-ios-primary .card-title-ios-confianza,
 .card-ios-primary .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-primary .text-ios-conocimiento,
 .card-ios-primary .card-header-ios-conocimiento,
 .card-ios-primary .card-title-ios-conocimiento,
 .card-ios-primary .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-primary .text-ios-comunicacion,
 .card-ios-primary .card-header-ios-comunicacion,
 .card-ios-primary .card-title-ios-comunicacion,
 .card-ios-primary .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-primary,
@@ -7226,21 +7226,21 @@ ion-card-content {
 .card-ios-secondary .card-header-ios-confianza,
 .card-ios-secondary .card-title-ios-confianza,
 .card-ios-secondary .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-secondary .text-ios-conocimiento,
 .card-ios-secondary .card-header-ios-conocimiento,
 .card-ios-secondary .card-title-ios-conocimiento,
 .card-ios-secondary .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-secondary .text-ios-comunicacion,
 .card-ios-secondary .card-header-ios-comunicacion,
 .card-ios-secondary .card-title-ios-comunicacion,
 .card-ios-secondary .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-secondary,
@@ -7318,21 +7318,21 @@ ion-card-content {
 .card-ios-danger .card-header-ios-confianza,
 .card-ios-danger .card-title-ios-confianza,
 .card-ios-danger .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-danger .text-ios-conocimiento,
 .card-ios-danger .card-header-ios-conocimiento,
 .card-ios-danger .card-title-ios-conocimiento,
 .card-ios-danger .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-danger .text-ios-comunicacion,
 .card-ios-danger .card-header-ios-comunicacion,
 .card-ios-danger .card-title-ios-comunicacion,
 .card-ios-danger .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-danger,
@@ -7410,21 +7410,21 @@ ion-card-content {
 .card-ios-light .card-header-ios-confianza,
 .card-ios-light .card-title-ios-confianza,
 .card-ios-light .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-light .text-ios-conocimiento,
 .card-ios-light .card-header-ios-conocimiento,
 .card-ios-light .card-title-ios-conocimiento,
 .card-ios-light .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-light .text-ios-comunicacion,
 .card-ios-light .card-header-ios-comunicacion,
 .card-ios-light .card-title-ios-comunicacion,
 .card-ios-light .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-light,
@@ -7502,21 +7502,21 @@ ion-card-content {
 .card-ios-dark .card-header-ios-confianza,
 .card-ios-dark .card-title-ios-confianza,
 .card-ios-dark .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-dark .text-ios-conocimiento,
 .card-ios-dark .card-header-ios-conocimiento,
 .card-ios-dark .card-title-ios-conocimiento,
 .card-ios-dark .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-dark .text-ios-comunicacion,
 .card-ios-dark .card-header-ios-comunicacion,
 .card-ios-dark .card-title-ios-comunicacion,
 .card-ios-dark .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-dark,
@@ -7594,21 +7594,21 @@ ion-card-content {
 .card-ios-rojo .card-header-ios-confianza,
 .card-ios-rojo .card-title-ios-confianza,
 .card-ios-rojo .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-rojo .text-ios-conocimiento,
 .card-ios-rojo .card-header-ios-conocimiento,
 .card-ios-rojo .card-title-ios-conocimiento,
 .card-ios-rojo .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-rojo .text-ios-comunicacion,
 .card-ios-rojo .card-header-ios-comunicacion,
 .card-ios-rojo .card-title-ios-comunicacion,
 .card-ios-rojo .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-rojo,
@@ -7686,21 +7686,21 @@ ion-card-content {
 .card-ios-seguridad .card-header-ios-confianza,
 .card-ios-seguridad .card-title-ios-confianza,
 .card-ios-seguridad .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-seguridad .text-ios-conocimiento,
 .card-ios-seguridad .card-header-ios-conocimiento,
 .card-ios-seguridad .card-title-ios-conocimiento,
 .card-ios-seguridad .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-seguridad .text-ios-comunicacion,
 .card-ios-seguridad .card-header-ios-comunicacion,
 .card-ios-seguridad .card-title-ios-comunicacion,
 .card-ios-seguridad .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-seguridad,
@@ -7710,12 +7710,12 @@ ion-card-content {
 }
 
 .card-ios .text-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .card-ios-confianza .card-header-ios,
@@ -7778,43 +7778,43 @@ ion-card-content {
 .card-ios-confianza .card-header-ios-confianza,
 .card-ios-confianza .card-title-ios-confianza,
 .card-ios-confianza .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-confianza .text-ios-conocimiento,
 .card-ios-confianza .card-header-ios-conocimiento,
 .card-ios-confianza .card-title-ios-conocimiento,
 .card-ios-confianza .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-confianza .text-ios-comunicacion,
 .card-ios-confianza .card-header-ios-comunicacion,
 .card-ios-confianza .card-title-ios-comunicacion,
 .card-ios-confianza .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-confianza,
 .card-title-ios-confianza,
 .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios .text-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .card-ios-conocimiento .card-header-ios,
 .card-ios-conocimiento .card-title-ios,
 .card-ios-conocimiento .card-content-ios,
 .card-ios-conocimiento p {
-  color: #000;
+  color: #fff;
 }
 
 .card-ios-conocimiento .text-ios-primary,
@@ -7870,36 +7870,36 @@ ion-card-content {
 .card-ios-conocimiento .card-header-ios-confianza,
 .card-ios-conocimiento .card-title-ios-confianza,
 .card-ios-conocimiento .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-conocimiento .text-ios-conocimiento,
 .card-ios-conocimiento .card-header-ios-conocimiento,
 .card-ios-conocimiento .card-title-ios-conocimiento,
 .card-ios-conocimiento .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-conocimiento .text-ios-comunicacion,
 .card-ios-conocimiento .card-header-ios-comunicacion,
 .card-ios-conocimiento .card-title-ios-comunicacion,
 .card-ios-conocimiento .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-conocimiento,
 .card-title-ios-conocimiento,
 .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios .text-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .card-ios-comunicacion .card-header-ios,
@@ -7962,27 +7962,27 @@ ion-card-content {
 .card-ios-comunicacion .card-header-ios-confianza,
 .card-ios-comunicacion .card-title-ios-confianza,
 .card-ios-comunicacion .card-content-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-ios-comunicacion .text-ios-conocimiento,
 .card-ios-comunicacion .card-header-ios-conocimiento,
 .card-ios-comunicacion .card-title-ios-conocimiento,
 .card-ios-comunicacion .card-content-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-ios-comunicacion .text-ios-comunicacion,
 .card-ios-comunicacion .card-header-ios-comunicacion,
 .card-ios-comunicacion .card-title-ios-comunicacion,
 .card-ios-comunicacion .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-ios-comunicacion,
 .card-title-ios-comunicacion,
 .card-content-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-md {
@@ -8149,21 +8149,21 @@ ion-card-content {
 .card-md-primary .card-header-md-confianza,
 .card-md-primary .card-title-md-confianza,
 .card-md-primary .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-primary .text-md-conocimiento,
 .card-md-primary .card-header-md-conocimiento,
 .card-md-primary .card-title-md-conocimiento,
 .card-md-primary .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-primary .text-md-comunicacion,
 .card-md-primary .card-header-md-comunicacion,
 .card-md-primary .card-title-md-comunicacion,
 .card-md-primary .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-primary,
@@ -8247,21 +8247,21 @@ ion-card-content {
 .card-md-secondary .card-header-md-confianza,
 .card-md-secondary .card-title-md-confianza,
 .card-md-secondary .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-secondary .text-md-conocimiento,
 .card-md-secondary .card-header-md-conocimiento,
 .card-md-secondary .card-title-md-conocimiento,
 .card-md-secondary .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-secondary .text-md-comunicacion,
 .card-md-secondary .card-header-md-comunicacion,
 .card-md-secondary .card-title-md-comunicacion,
 .card-md-secondary .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-secondary,
@@ -8345,21 +8345,21 @@ ion-card-content {
 .card-md-danger .card-header-md-confianza,
 .card-md-danger .card-title-md-confianza,
 .card-md-danger .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-danger .text-md-conocimiento,
 .card-md-danger .card-header-md-conocimiento,
 .card-md-danger .card-title-md-conocimiento,
 .card-md-danger .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-danger .text-md-comunicacion,
 .card-md-danger .card-header-md-comunicacion,
 .card-md-danger .card-title-md-comunicacion,
 .card-md-danger .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-danger,
@@ -8443,21 +8443,21 @@ ion-card-content {
 .card-md-light .card-header-md-confianza,
 .card-md-light .card-title-md-confianza,
 .card-md-light .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-light .text-md-conocimiento,
 .card-md-light .card-header-md-conocimiento,
 .card-md-light .card-title-md-conocimiento,
 .card-md-light .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-light .text-md-comunicacion,
 .card-md-light .card-header-md-comunicacion,
 .card-md-light .card-title-md-comunicacion,
 .card-md-light .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-light,
@@ -8541,21 +8541,21 @@ ion-card-content {
 .card-md-dark .card-header-md-confianza,
 .card-md-dark .card-title-md-confianza,
 .card-md-dark .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-dark .text-md-conocimiento,
 .card-md-dark .card-header-md-conocimiento,
 .card-md-dark .card-title-md-conocimiento,
 .card-md-dark .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-dark .text-md-comunicacion,
 .card-md-dark .card-header-md-comunicacion,
 .card-md-dark .card-title-md-comunicacion,
 .card-md-dark .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-dark,
@@ -8639,21 +8639,21 @@ ion-card-content {
 .card-md-rojo .card-header-md-confianza,
 .card-md-rojo .card-title-md-confianza,
 .card-md-rojo .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-rojo .text-md-conocimiento,
 .card-md-rojo .card-header-md-conocimiento,
 .card-md-rojo .card-title-md-conocimiento,
 .card-md-rojo .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-rojo .text-md-comunicacion,
 .card-md-rojo .card-header-md-comunicacion,
 .card-md-rojo .card-title-md-comunicacion,
 .card-md-rojo .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-rojo,
@@ -8737,21 +8737,21 @@ ion-card-content {
 .card-md-seguridad .card-header-md-confianza,
 .card-md-seguridad .card-title-md-confianza,
 .card-md-seguridad .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-seguridad .text-md-conocimiento,
 .card-md-seguridad .card-header-md-conocimiento,
 .card-md-seguridad .card-title-md-conocimiento,
 .card-md-seguridad .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-seguridad .text-md-comunicacion,
 .card-md-seguridad .card-header-md-comunicacion,
 .card-md-seguridad .card-title-md-comunicacion,
 .card-md-seguridad .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-seguridad,
@@ -8761,12 +8761,12 @@ ion-card-content {
 }
 
 .card-md .text-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .card-md-confianza .card-header-md,
@@ -8835,36 +8835,36 @@ ion-card-content {
 .card-md-confianza .card-header-md-confianza,
 .card-md-confianza .card-title-md-confianza,
 .card-md-confianza .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-confianza .text-md-conocimiento,
 .card-md-confianza .card-header-md-conocimiento,
 .card-md-confianza .card-title-md-conocimiento,
 .card-md-confianza .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-confianza .text-md-comunicacion,
 .card-md-confianza .card-header-md-comunicacion,
 .card-md-confianza .card-title-md-comunicacion,
 .card-md-confianza .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-confianza,
 .card-title-md-confianza,
 .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md .text-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .card-md-conocimiento .card-header-md,
@@ -8877,7 +8877,7 @@ ion-card-content {
 .card-md-conocimiento h5,
 .card-md-conocimiento h6,
 .card-md-conocimiento p {
-  color: #000;
+  color: #fff;
 }
 
 .card-md-conocimiento .text-md-primary,
@@ -8933,36 +8933,36 @@ ion-card-content {
 .card-md-conocimiento .card-header-md-confianza,
 .card-md-conocimiento .card-title-md-confianza,
 .card-md-conocimiento .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-conocimiento .text-md-conocimiento,
 .card-md-conocimiento .card-header-md-conocimiento,
 .card-md-conocimiento .card-title-md-conocimiento,
 .card-md-conocimiento .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-conocimiento .text-md-comunicacion,
 .card-md-conocimiento .card-header-md-comunicacion,
 .card-md-conocimiento .card-title-md-comunicacion,
 .card-md-conocimiento .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-conocimiento,
 .card-title-md-conocimiento,
 .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md .text-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .card-md-comunicacion .card-header-md,
@@ -9031,27 +9031,27 @@ ion-card-content {
 .card-md-comunicacion .card-header-md-confianza,
 .card-md-comunicacion .card-title-md-confianza,
 .card-md-comunicacion .card-content-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-md-comunicacion .text-md-conocimiento,
 .card-md-comunicacion .card-header-md-conocimiento,
 .card-md-comunicacion .card-title-md-conocimiento,
 .card-md-comunicacion .card-content-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-md-comunicacion .text-md-comunicacion,
 .card-md-comunicacion .card-header-md-comunicacion,
 .card-md-comunicacion .card-title-md-comunicacion,
 .card-md-comunicacion .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-md-comunicacion,
 .card-title-md-comunicacion,
 .card-content-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-wp {
@@ -9218,21 +9218,21 @@ ion-card-content {
 .card-wp-primary .card-header-wp-confianza,
 .card-wp-primary .card-title-wp-confianza,
 .card-wp-primary .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-primary .text-wp-conocimiento,
 .card-wp-primary .card-header-wp-conocimiento,
 .card-wp-primary .card-title-wp-conocimiento,
 .card-wp-primary .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-primary .text-wp-comunicacion,
 .card-wp-primary .card-header-wp-comunicacion,
 .card-wp-primary .card-title-wp-comunicacion,
 .card-wp-primary .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-primary,
@@ -9316,21 +9316,21 @@ ion-card-content {
 .card-wp-secondary .card-header-wp-confianza,
 .card-wp-secondary .card-title-wp-confianza,
 .card-wp-secondary .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-secondary .text-wp-conocimiento,
 .card-wp-secondary .card-header-wp-conocimiento,
 .card-wp-secondary .card-title-wp-conocimiento,
 .card-wp-secondary .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-secondary .text-wp-comunicacion,
 .card-wp-secondary .card-header-wp-comunicacion,
 .card-wp-secondary .card-title-wp-comunicacion,
 .card-wp-secondary .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-secondary,
@@ -9414,21 +9414,21 @@ ion-card-content {
 .card-wp-danger .card-header-wp-confianza,
 .card-wp-danger .card-title-wp-confianza,
 .card-wp-danger .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-danger .text-wp-conocimiento,
 .card-wp-danger .card-header-wp-conocimiento,
 .card-wp-danger .card-title-wp-conocimiento,
 .card-wp-danger .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-danger .text-wp-comunicacion,
 .card-wp-danger .card-header-wp-comunicacion,
 .card-wp-danger .card-title-wp-comunicacion,
 .card-wp-danger .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-danger,
@@ -9512,21 +9512,21 @@ ion-card-content {
 .card-wp-light .card-header-wp-confianza,
 .card-wp-light .card-title-wp-confianza,
 .card-wp-light .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-light .text-wp-conocimiento,
 .card-wp-light .card-header-wp-conocimiento,
 .card-wp-light .card-title-wp-conocimiento,
 .card-wp-light .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-light .text-wp-comunicacion,
 .card-wp-light .card-header-wp-comunicacion,
 .card-wp-light .card-title-wp-comunicacion,
 .card-wp-light .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-light,
@@ -9610,21 +9610,21 @@ ion-card-content {
 .card-wp-dark .card-header-wp-confianza,
 .card-wp-dark .card-title-wp-confianza,
 .card-wp-dark .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-dark .text-wp-conocimiento,
 .card-wp-dark .card-header-wp-conocimiento,
 .card-wp-dark .card-title-wp-conocimiento,
 .card-wp-dark .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-dark .text-wp-comunicacion,
 .card-wp-dark .card-header-wp-comunicacion,
 .card-wp-dark .card-title-wp-comunicacion,
 .card-wp-dark .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-dark,
@@ -9708,21 +9708,21 @@ ion-card-content {
 .card-wp-rojo .card-header-wp-confianza,
 .card-wp-rojo .card-title-wp-confianza,
 .card-wp-rojo .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-rojo .text-wp-conocimiento,
 .card-wp-rojo .card-header-wp-conocimiento,
 .card-wp-rojo .card-title-wp-conocimiento,
 .card-wp-rojo .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-rojo .text-wp-comunicacion,
 .card-wp-rojo .card-header-wp-comunicacion,
 .card-wp-rojo .card-title-wp-comunicacion,
 .card-wp-rojo .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-rojo,
@@ -9806,21 +9806,21 @@ ion-card-content {
 .card-wp-seguridad .card-header-wp-confianza,
 .card-wp-seguridad .card-title-wp-confianza,
 .card-wp-seguridad .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-seguridad .text-wp-conocimiento,
 .card-wp-seguridad .card-header-wp-conocimiento,
 .card-wp-seguridad .card-title-wp-conocimiento,
 .card-wp-seguridad .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-seguridad .text-wp-comunicacion,
 .card-wp-seguridad .card-header-wp-comunicacion,
 .card-wp-seguridad .card-title-wp-comunicacion,
 .card-wp-seguridad .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-seguridad,
@@ -9830,12 +9830,12 @@ ion-card-content {
 }
 
 .card-wp .text-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .card-wp-confianza .card-header-wp,
@@ -9904,36 +9904,36 @@ ion-card-content {
 .card-wp-confianza .card-header-wp-confianza,
 .card-wp-confianza .card-title-wp-confianza,
 .card-wp-confianza .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-confianza .text-wp-conocimiento,
 .card-wp-confianza .card-header-wp-conocimiento,
 .card-wp-confianza .card-title-wp-conocimiento,
 .card-wp-confianza .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-confianza .text-wp-comunicacion,
 .card-wp-confianza .card-header-wp-comunicacion,
 .card-wp-confianza .card-title-wp-comunicacion,
 .card-wp-confianza .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-confianza,
 .card-title-wp-confianza,
 .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp .text-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .card-wp-conocimiento .card-header-wp,
@@ -9946,7 +9946,7 @@ ion-card-content {
 .card-wp-conocimiento h5,
 .card-wp-conocimiento h6,
 .card-wp-conocimiento p {
-  color: #000;
+  color: #fff;
 }
 
 .card-wp-conocimiento .text-wp-primary,
@@ -10002,36 +10002,36 @@ ion-card-content {
 .card-wp-conocimiento .card-header-wp-confianza,
 .card-wp-conocimiento .card-title-wp-confianza,
 .card-wp-conocimiento .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-conocimiento .text-wp-conocimiento,
 .card-wp-conocimiento .card-header-wp-conocimiento,
 .card-wp-conocimiento .card-title-wp-conocimiento,
 .card-wp-conocimiento .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-conocimiento .text-wp-comunicacion,
 .card-wp-conocimiento .card-header-wp-comunicacion,
 .card-wp-conocimiento .card-title-wp-comunicacion,
 .card-wp-conocimiento .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-conocimiento,
 .card-title-wp-conocimiento,
 .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp .text-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .card-wp-comunicacion .card-header-wp,
@@ -10100,27 +10100,27 @@ ion-card-content {
 .card-wp-comunicacion .card-header-wp-confianza,
 .card-wp-comunicacion .card-title-wp-confianza,
 .card-wp-comunicacion .card-content-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .card-wp-comunicacion .text-wp-conocimiento,
 .card-wp-comunicacion .card-header-wp-conocimiento,
 .card-wp-comunicacion .card-title-wp-conocimiento,
 .card-wp-comunicacion .card-content-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .card-wp-comunicacion .text-wp-comunicacion,
 .card-wp-comunicacion .card-header-wp-comunicacion,
 .card-wp-comunicacion .card-title-wp-comunicacion,
 .card-wp-comunicacion .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .card-header-wp-comunicacion,
 .card-title-wp-comunicacion,
 .card-content-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .checkbox-ios {
@@ -10239,8 +10239,8 @@ ion-card-content {
 }
 
 .checkbox-ios-confianza .checkbox-checked {
-  border-color: #50E3C2;
-  background-color: #50E3C2;
+  border-color: #19D0A7;
+  background-color: #19D0A7;
 }
 
 .checkbox-ios-confianza .checkbox-checked .checkbox-inner {
@@ -10248,17 +10248,17 @@ ion-card-content {
 }
 
 .checkbox-ios-conocimiento .checkbox-checked {
-  border-color: #F8E71C;
-  background-color: #F8E71C;
+  border-color: #A36FF7;
+  background-color: #A36FF7;
 }
 
 .checkbox-ios-conocimiento .checkbox-checked .checkbox-inner {
-  border-color: #000;
+  border-color: #fff;
 }
 
 .checkbox-ios-comunicacion .checkbox-checked {
-  border-color: #C09AFF;
-  background-color: #C09AFF;
+  border-color: #FB8F58;
+  background-color: #FB8F58;
 }
 
 .checkbox-ios-comunicacion .checkbox-checked .checkbox-inner {
@@ -10388,8 +10388,8 @@ ion-card-content {
 }
 
 .checkbox-md-confianza .checkbox-checked {
-  border-color: #50E3C2;
-  background-color: #50E3C2;
+  border-color: #19D0A7;
+  background-color: #19D0A7;
 }
 
 .checkbox-md-confianza .checkbox-checked .checkbox-inner {
@@ -10397,17 +10397,17 @@ ion-card-content {
 }
 
 .checkbox-md-conocimiento .checkbox-checked {
-  border-color: #F8E71C;
-  background-color: #F8E71C;
+  border-color: #A36FF7;
+  background-color: #A36FF7;
 }
 
 .checkbox-md-conocimiento .checkbox-checked .checkbox-inner {
-  border-color: #000;
+  border-color: #fff;
 }
 
 .checkbox-md-comunicacion .checkbox-checked {
-  border-color: #C09AFF;
-  background-color: #C09AFF;
+  border-color: #FB8F58;
+  background-color: #FB8F58;
 }
 
 .checkbox-md-comunicacion .checkbox-checked .checkbox-inner {
@@ -10534,8 +10534,8 @@ ion-card-content {
 }
 
 .checkbox-wp-confianza .checkbox-checked {
-  border-color: #50E3C2;
-  background-color: #50E3C2;
+  border-color: #19D0A7;
+  background-color: #19D0A7;
 }
 
 .checkbox-wp-confianza .checkbox-checked .checkbox-inner {
@@ -10543,17 +10543,17 @@ ion-card-content {
 }
 
 .checkbox-wp-conocimiento .checkbox-checked {
-  border-color: #F8E71C;
-  background-color: #F8E71C;
+  border-color: #A36FF7;
+  background-color: #A36FF7;
 }
 
 .checkbox-wp-conocimiento .checkbox-checked .checkbox-inner {
-  border-color: #000;
+  border-color: #fff;
 }
 
 .checkbox-wp-comunicacion .checkbox-checked {
-  border-color: #C09AFF;
-  background-color: #C09AFF;
+  border-color: #FB8F58;
+  background-color: #FB8F58;
 }
 
 .checkbox-wp-comunicacion .checkbox-checked .checkbox-inner {
@@ -10669,19 +10669,19 @@ ion-chip ion-avatar img {
 .chip-ios-confianza,
 .chip-ios .icon-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .chip-ios-conocimiento,
 .chip-ios .icon-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .chip-ios-comunicacion,
 .chip-ios .icon-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .chip-md {
@@ -10748,19 +10748,19 @@ ion-chip ion-avatar img {
 .chip-md-confianza,
 .chip-md .icon-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .chip-md-conocimiento,
 .chip-md .icon-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .chip-md-comunicacion,
 .chip-md .icon-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .chip-wp {
@@ -10831,19 +10831,19 @@ ion-chip ion-avatar img {
 .chip-wp-confianza,
 .chip-wp .icon-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .chip-wp-conocimiento,
 .chip-wp .icon-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .chip-wp-comunicacion,
 .chip-wp .icon-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 ion-content {
@@ -11533,29 +11533,29 @@ ion-fab-list[side=right] {
 
 .fab-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .fab-ios-confianza.activated {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .fab-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .fab-ios-conocimiento.activated {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .fab-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .fab-ios-comunicacion.activated {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .fab-md {
@@ -11679,11 +11679,11 @@ ion-fab-list[side=right] {
 
 .fab-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .fab-md-confianza.activated {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .fab-md-confianza .button-effect {
@@ -11691,25 +11691,25 @@ ion-fab-list[side=right] {
 }
 
 .fab-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .fab-md-conocimiento.activated {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .fab-md-conocimiento .button-effect {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .fab-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .fab-md-comunicacion.activated {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .fab-md-comunicacion .button-effect {
@@ -11802,29 +11802,29 @@ ion-fab-list[side=right] {
 
 .fab-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .fab-wp-confianza.activated {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .fab-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .fab-wp-conocimiento.activated {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .fab-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .fab-wp-comunicacion.activated {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 ion-grid {
@@ -12111,15 +12111,15 @@ ion-icon[small] {
 }
 
 .icon-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .icon-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .icon-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .icon-md-primary {
@@ -12151,15 +12151,15 @@ ion-icon[small] {
 }
 
 .icon-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .icon-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .icon-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .icon-wp-primary {
@@ -12191,15 +12191,15 @@ ion-icon[small] {
 }
 
 .icon-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .icon-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .icon-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 ion-img {
@@ -13184,13 +13184,13 @@ ion-item-group .item-wrapper:last-child .item-ios .item-inner {
 }
 
 .item-ios .text-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .item-ios-confianza,
 .item-divider-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .item-ios-confianza p,
@@ -13200,37 +13200,37 @@ ion-item-group .item-wrapper:last-child .item-ios .item-inner {
 
 .item-ios-confianza.activated,
 .item-divider-ios-confianza.activated {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .item-ios .text-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .item-ios-conocimiento,
 .item-divider-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .item-ios-conocimiento p,
 .item-divider-ios-conocimiento p {
-  color: #000;
+  color: #fff;
 }
 
 .item-ios-conocimiento.activated,
 .item-divider-ios-conocimiento.activated {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .item-ios .text-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .item-ios-comunicacion,
 .item-divider-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .item-ios-comunicacion p,
@@ -13240,7 +13240,7 @@ ion-item-group .item-wrapper:last-child .item-ios .item-inner {
 
 .item-ios-comunicacion.activated,
 .item-divider-ios-comunicacion.activated {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .list-ios ion-item-sliding {
@@ -13524,13 +13524,13 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
 }
 
 .item-md .text-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .item-md-confianza,
 .item-divider-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .item-md-confianza p,
@@ -13540,37 +13540,37 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
 
 .item-md-confianza.activated,
 .item-divider-md-confianza.activated {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .item-md .text-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .item-md-conocimiento,
 .item-divider-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .item-md-conocimiento p,
 .item-divider-md-conocimiento p {
-  color: #000;
+  color: #fff;
 }
 
 .item-md-conocimiento.activated,
 .item-divider-md-conocimiento.activated {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .item-md .text-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .item-md-comunicacion,
 .item-divider-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .item-md-comunicacion p,
@@ -13580,7 +13580,7 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
 
 .item-md-comunicacion.activated,
 .item-divider-md-comunicacion.activated {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .list-md ion-item-sliding {
@@ -13864,13 +13864,13 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
 }
 
 .item-wp .text-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .item-wp-confianza,
 .item-divider-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .item-wp-confianza p,
@@ -13880,37 +13880,37 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
 
 .item-wp-confianza.activated,
 .item-divider-wp-confianza.activated {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .item-wp .text-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .item-wp-conocimiento,
 .item-divider-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .item-wp-conocimiento p,
 .item-divider-wp-conocimiento p {
-  color: #000;
+  color: #fff;
 }
 
 .item-wp-conocimiento.activated,
 .item-divider-wp-conocimiento.activated {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .item-wp .text-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .item-wp-comunicacion,
 .item-divider-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .item-wp-comunicacion p,
@@ -13920,7 +13920,7 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
 
 .item-wp-comunicacion.activated,
 .item-divider-wp-comunicacion.activated {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .list-wp ion-item-sliding {
@@ -14091,21 +14091,21 @@ ion-label[floating] {
 .item-input .label-ios-confianza,
 .item-select .label-ios-confianza,
 .item-datetime .label-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .label-ios-conocimiento,
 .item-input .label-ios-conocimiento,
 .item-select .label-ios-conocimiento,
 .item-datetime .label-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .label-ios-comunicacion,
 .item-input .label-ios-comunicacion,
 .item-select .label-ios-comunicacion,
 .item-datetime .label-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .label-md {
@@ -14213,21 +14213,21 @@ ion-label[floating] {
 .item-input .label-md-confianza,
 .item-select .label-md-confianza,
 .item-datetime .label-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .label-md-conocimiento,
 .item-input .label-md-conocimiento,
 .item-select .label-md-conocimiento,
 .item-datetime .label-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .label-md-comunicacion,
 .item-input .label-md-comunicacion,
 .item-select .label-md-comunicacion,
 .item-datetime .label-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .label-wp {
@@ -14327,21 +14327,21 @@ ion-label[floating] {
 .item-input .label-wp-confianza,
 .item-select .label-wp-confianza,
 .item-datetime .label-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .label-wp-conocimiento,
 .item-input .label-wp-conocimiento,
 .item-select .label-wp-conocimiento,
 .item-datetime .label-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .label-wp-comunicacion,
 .item-input .label-wp-comunicacion,
 .item-select .label-wp-comunicacion,
 .item-datetime .label-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 ion-list-header {
@@ -14516,17 +14516,17 @@ ion-list[inset] {
 
 .list-header-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .list-header-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .list-header-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .list-md {
@@ -14662,17 +14662,17 @@ ion-list[inset] {
 
 .list-header-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .list-header-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .list-header-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .list-md .item-input:last-child {
@@ -14816,17 +14816,17 @@ ion-list[inset] {
 
 .list-header-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .list-header-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .list-header-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 ion-loading {
@@ -15194,15 +15194,15 @@ ion-modal {
 }
 
 .note-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .note-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .note-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .note-md {
@@ -15238,15 +15238,15 @@ ion-modal {
 }
 
 .note-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .note-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .note-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .note-wp {
@@ -15282,15 +15282,15 @@ ion-modal {
 }
 
 .note-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .note-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .note-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 ion-picker-cmp {
@@ -16000,39 +16000,39 @@ ion-popover {
 }
 
 .item-radio-ios-confianza.item-radio-checked ion-label {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .radio-ios-confianza .radio-checked {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .radio-ios-confianza .radio-checked .radio-inner {
-  border-color: #50E3C2;
+  border-color: #19D0A7;
 }
 
 .item-radio-ios-conocimiento.item-radio-checked ion-label {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .radio-ios-conocimiento .radio-checked {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .radio-ios-conocimiento .radio-checked .radio-inner {
-  border-color: #F8E71C;
+  border-color: #A36FF7;
 }
 
 .item-radio-ios-comunicacion.item-radio-checked ion-label {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .radio-ios-comunicacion .radio-checked {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .radio-ios-comunicacion .radio-checked .radio-inner {
-  border-color: #C09AFF;
+  border-color: #FB8F58;
 }
 
 .radio-md {
@@ -16187,39 +16187,39 @@ ion-popover {
 }
 
 .item-radio-md-confianza.item-radio-checked ion-label {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .radio-md-confianza .radio-checked {
-  border-color: #50E3C2;
+  border-color: #19D0A7;
 }
 
 .radio-md-confianza .radio-inner {
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .item-radio-md-conocimiento.item-radio-checked ion-label {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .radio-md-conocimiento .radio-checked {
-  border-color: #F8E71C;
+  border-color: #A36FF7;
 }
 
 .radio-md-conocimiento .radio-inner {
-  background-color: #F8E71C;
+  background-color: #A36FF7;
 }
 
 .item-radio-md-comunicacion.item-radio-checked ion-label {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .radio-md-comunicacion .radio-checked {
-  border-color: #C09AFF;
+  border-color: #FB8F58;
 }
 
 .radio-md-comunicacion .radio-inner {
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .radio-wp {
@@ -16315,15 +16315,15 @@ ion-popover {
 }
 
 .radio-wp-confianza .radio-checked {
-  border-color: #50E3C2;
+  border-color: #19D0A7;
 }
 
 .radio-wp-conocimiento .radio-checked {
-  border-color: #F8E71C;
+  border-color: #A36FF7;
 }
 
 .radio-wp-comunicacion .radio-checked {
-  border-color: #C09AFF;
+  border-color: #FB8F58;
 }
 
 .item-range .item-inner {
@@ -16527,17 +16527,17 @@ ion-range ion-icon {
 
 .range-ios-confianza .range-bar-active,
 .range-ios-confianza .range-tick-active {
-  background: #50E3C2;
+  background: #19D0A7;
 }
 
 .range-ios-conocimiento .range-bar-active,
 .range-ios-conocimiento .range-tick-active {
-  background: #F8E71C;
+  background: #A36FF7;
 }
 
 .range-ios-comunicacion .range-bar-active,
 .range-ios-comunicacion .range-tick-active {
-  background: #C09AFF;
+  background: #FB8F58;
 }
 
 .range-md {
@@ -16838,7 +16838,7 @@ ion-range ion-icon {
 .range-md-confianza .range-knob,
 .range-md-confianza .range-pin,
 .range-md-confianza .range-pin::before {
-  background: #50E3C2;
+  background: #19D0A7;
 }
 
 .range-md-conocimiento .range-md .range-knob-min.range-knob-min .range-knob {
@@ -16856,7 +16856,7 @@ ion-range ion-icon {
 .range-md-conocimiento .range-knob,
 .range-md-conocimiento .range-pin,
 .range-md-conocimiento .range-pin::before {
-  background: #F8E71C;
+  background: #A36FF7;
 }
 
 .range-md-comunicacion .range-md .range-knob-min.range-knob-min .range-knob {
@@ -16874,7 +16874,7 @@ ion-range ion-icon {
 .range-md-comunicacion .range-knob,
 .range-md-comunicacion .range-pin,
 .range-md-comunicacion .range-pin::before {
-  background: #C09AFF;
+  background: #FB8F58;
 }
 
 .range-wp {
@@ -17038,21 +17038,21 @@ ion-range ion-icon {
 .range-wp-confianza .range-tick-active,
 .range-wp-confianza .range-knob,
 .range-wp-confianza .range-pin {
-  background: #50E3C2;
+  background: #19D0A7;
 }
 
 .range-wp-conocimiento .range-bar-active,
 .range-wp-conocimiento .range-tick-active,
 .range-wp-conocimiento .range-knob,
 .range-wp-conocimiento .range-pin {
-  background: #F8E71C;
+  background: #A36FF7;
 }
 
 .range-wp-comunicacion .range-bar-active,
 .range-wp-comunicacion .range-tick-active,
 .range-wp-comunicacion .range-knob,
 .range-wp-comunicacion .range-pin {
-  background: #C09AFF;
+  background: #FB8F58;
 }
 
 ion-refresher {
@@ -17598,11 +17598,11 @@ ion-searchbar {
 }
 
 .searchbar-ios-confianza .searchbar-ios-cancel {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .searchbar-ios-confianza .searchbar-ios-cancel:hover:not(.disable-hover) {
-  color: #4ad1b2;
+  color: #2bd4ae;
 }
 
 .toolbar-ios-confianza .searchbar-ios .searchbar-search-icon {
@@ -17636,49 +17636,49 @@ ion-searchbar {
 }
 
 .searchbar-ios-conocimiento .searchbar-ios-cancel {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .searchbar-ios-conocimiento .searchbar-ios-cancel:hover:not(.disable-hover) {
-  color: #e4d51a;
+  color: #9666e3;
 }
 
 .toolbar-ios-conocimiento .searchbar-ios .searchbar-search-icon {
-  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2013%2013'><path%20fill='rgba(0,%200,%200,%200.5)'%20d='M5,1c2.2,0,4,1.8,4,4S7.2,9,5,9S1,7.2,1,5S2.8,1,5,1%20M5,0C2.2,0,0,2.2,0,5s2.2,5,5,5s5-2.2,5-5S7.8,0,5,0%20L5,0z'/><line%20stroke='rgba(0,%200,%200,%200.5)'%20stroke-miterlimit='10'%20x1='12.6'%20y1='12.6'%20x2='8.2'%20y2='8.2'/></svg>");
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2013%2013'><path%20fill='rgba(255,%20255,%20255,%200.5)'%20d='M5,1c2.2,0,4,1.8,4,4S7.2,9,5,9S1,7.2,1,5S2.8,1,5,1%20M5,0C2.2,0,0,2.2,0,5s2.2,5,5,5s5-2.2,5-5S7.8,0,5,0%20L5,0z'/><line%20stroke='rgba(255,%20255,%20255,%200.5)'%20stroke-miterlimit='10'%20x1='12.6'%20y1='12.6'%20x2='8.2'%20y2='8.2'/></svg>");
 }
 
 .toolbar-ios-conocimiento .searchbar-ios .searchbar-input {
-  color: #000;
-  background: rgba(0, 0, 0, 0.08);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .toolbar-ios-conocimiento .searchbar-ios .searchbar-input::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .toolbar-ios-conocimiento .searchbar-ios .searchbar-input:-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .toolbar-ios-conocimiento .searchbar-ios .searchbar-input::-webkit-input-placeholder {
   text-indent: 0;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .toolbar-ios-conocimiento .searchbar-ios .searchbar-clear-icon {
-  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'><path%20fill='rgba(0,%200,%200,%200.5)'%20d='M403.1,108.9c-81.2-81.2-212.9-81.2-294.2,0s-81.2,212.9,0,294.2c81.2,81.2,212.9,81.2,294.2,0S484.3,190.1,403.1,108.9z%20M352,340.2L340.2,352l-84.4-84.2l-84,83.8L160,339.8l84-83.8l-84-83.8l11.8-11.8l84,83.8l84.4-84.2l11.8,11.8L267.6,256L352,340.2z'/></svg>");
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'><path%20fill='rgba(255,%20255,%20255,%200.5)'%20d='M403.1,108.9c-81.2-81.2-212.9-81.2-294.2,0s-81.2,212.9,0,294.2c81.2,81.2,212.9,81.2,294.2,0S484.3,190.1,403.1,108.9z%20M352,340.2L340.2,352l-84.4-84.2l-84,83.8L160,339.8l84-83.8l-84-83.8l11.8-11.8l84,83.8l84.4-84.2l11.8,11.8L267.6,256L352,340.2z'/></svg>");
 }
 
 .toolbar-ios-conocimiento .searchbar-ios .searchbar-ios-cancel {
-  color: #387ef5;
+  color: #fff;
 }
 
 .searchbar-ios-comunicacion .searchbar-ios-cancel {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .searchbar-ios-comunicacion .searchbar-ios-cancel:hover:not(.disable-hover) {
-  color: #b18eeb;
+  color: #e78451;
 }
 
 .toolbar-ios-comunicacion .searchbar-ios .searchbar-search-icon {
@@ -17948,15 +17948,15 @@ ion-searchbar {
 }
 
 .searchbar-wp-confianza.searchbar-has-focus .searchbar-input-container {
-  border-color: #50E3C2;
+  border-color: #19D0A7;
 }
 
 .searchbar-wp-conocimiento.searchbar-has-focus .searchbar-input-container {
-  border-color: #F8E71C;
+  border-color: #A36FF7;
 }
 
 .searchbar-wp-comunicacion.searchbar-has-focus .searchbar-input-container {
-  border-color: #C09AFF;
+  border-color: #FB8F58;
 }
 
 ion-segment {
@@ -18247,81 +18247,81 @@ ion-segment {
 }
 
 .segment-ios-confianza .segment-button {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
 }
 
 .segment-ios-confianza .segment-button:hover:not(.segment-activated) {
-  background-color: rgba(80, 227, 194, 0.1);
+  background-color: rgba(25, 208, 167, 0.1);
 }
 
 .segment-ios-confianza .segment-button:active:not(.segment-activated) {
-  background-color: rgba(80, 227, 194, 0.16);
+  background-color: rgba(25, 208, 167, 0.16);
 }
 
 .segment-ios-confianza .segment-button.segment-activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .segment-ios-confianza .segment-button-disabled {
-  color: rgba(80, 227, 194, 0.3);
+  color: rgba(25, 208, 167, 0.3);
 }
 
 .toolbar-ios-confianza .segment-ios .segment-button.segment-activated {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .segment-ios-conocimiento .segment-button {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
 }
 
 .segment-ios-conocimiento .segment-button:hover:not(.segment-activated) {
-  background-color: rgba(248, 231, 28, 0.1);
+  background-color: rgba(163, 111, 247, 0.1);
 }
 
 .segment-ios-conocimiento .segment-button:active:not(.segment-activated) {
-  background-color: rgba(248, 231, 28, 0.16);
+  background-color: rgba(163, 111, 247, 0.16);
 }
 
 .segment-ios-conocimiento .segment-button.segment-activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .segment-ios-conocimiento .segment-button-disabled {
-  color: rgba(248, 231, 28, 0.3);
+  color: rgba(163, 111, 247, 0.3);
 }
 
 .toolbar-ios-conocimiento .segment-ios .segment-button.segment-activated {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .segment-ios-comunicacion .segment-button {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
 }
 
 .segment-ios-comunicacion .segment-button:hover:not(.segment-activated) {
-  background-color: rgba(192, 154, 255, 0.1);
+  background-color: rgba(251, 143, 88, 0.1);
 }
 
 .segment-ios-comunicacion .segment-button:active:not(.segment-activated) {
-  background-color: rgba(192, 154, 255, 0.16);
+  background-color: rgba(251, 143, 88, 0.16);
 }
 
 .segment-ios-comunicacion .segment-button.segment-activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .segment-ios-comunicacion .segment-button-disabled {
-  color: rgba(192, 154, 255, 0.3);
+  color: rgba(251, 143, 88, 0.3);
 }
 
 .toolbar-ios-comunicacion .segment-ios .segment-button.segment-activated {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .segment-md .segment-button {
@@ -18439,32 +18439,32 @@ ion-segment {
 }
 
 .segment-md-confianza .segment-button {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .segment-md-confianza .segment-button.activated, .segment-md-confianza .segment-button.segment-activated {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   opacity: 1;
 }
 
 .segment-md-conocimiento .segment-button {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .segment-md-conocimiento .segment-button.activated, .segment-md-conocimiento .segment-button.segment-activated {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   opacity: 1;
 }
 
 .segment-md-comunicacion .segment-button {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .segment-md-comunicacion .segment-button.activated, .segment-md-comunicacion .segment-button.segment-activated {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   opacity: 1;
 }
 
@@ -18575,32 +18575,32 @@ ion-segment {
 }
 
 .segment-wp-confianza .segment-button {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .segment-wp-confianza .segment-button.activated, .segment-wp-confianza .segment-button.segment-activated {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   opacity: 1;
 }
 
 .segment-wp-conocimiento .segment-button {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .segment-wp-conocimiento .segment-button.activated, .segment-wp-conocimiento .segment-button.segment-activated {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   opacity: 1;
 }
 
 .segment-wp-comunicacion .segment-button {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .segment-wp-comunicacion .segment-button.activated, .segment-wp-comunicacion .segment-button.segment-activated {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   opacity: 1;
 }
 
@@ -19630,37 +19630,37 @@ ion-spinner.spinner-paused svg {
 .spinner-ios-confianza.spinner-ios line,
 .spinner-ios-confianza.spinner-ios-small line,
 .spinner-ios-confianza.spinner-crescent circle {
-  stroke: #50E3C2;
+  stroke: #19D0A7;
 }
 
 .spinner-ios-confianza.spinner-bubbles circle,
 .spinner-ios-confianza.spinner-circles circle,
 .spinner-ios-confianza.spinner-dots circle {
-  fill: #50E3C2;
+  fill: #19D0A7;
 }
 
 .spinner-ios-conocimiento.spinner-ios line,
 .spinner-ios-conocimiento.spinner-ios-small line,
 .spinner-ios-conocimiento.spinner-crescent circle {
-  stroke: #F8E71C;
+  stroke: #A36FF7;
 }
 
 .spinner-ios-conocimiento.spinner-bubbles circle,
 .spinner-ios-conocimiento.spinner-circles circle,
 .spinner-ios-conocimiento.spinner-dots circle {
-  fill: #F8E71C;
+  fill: #A36FF7;
 }
 
 .spinner-ios-comunicacion.spinner-ios line,
 .spinner-ios-comunicacion.spinner-ios-small line,
 .spinner-ios-comunicacion.spinner-crescent circle {
-  stroke: #C09AFF;
+  stroke: #FB8F58;
 }
 
 .spinner-ios-comunicacion.spinner-bubbles circle,
 .spinner-ios-comunicacion.spinner-circles circle,
 .spinner-ios-comunicacion.spinner-dots circle {
-  fill: #C09AFF;
+  fill: #FB8F58;
 }
 
 .spinner-md-ios line,
@@ -19771,37 +19771,37 @@ ion-spinner.spinner-paused svg {
 .spinner-md-confianza.spinner-ios line,
 .spinner-md-confianza.spinner-ios-small line,
 .spinner-md-confianza.spinner-crescent circle {
-  stroke: #50E3C2;
+  stroke: #19D0A7;
 }
 
 .spinner-md-confianza.spinner-bubbles circle,
 .spinner-md-confianza.spinner-circles circle,
 .spinner-md-confianza.spinner-dots circle {
-  fill: #50E3C2;
+  fill: #19D0A7;
 }
 
 .spinner-md-conocimiento.spinner-ios line,
 .spinner-md-conocimiento.spinner-ios-small line,
 .spinner-md-conocimiento.spinner-crescent circle {
-  stroke: #F8E71C;
+  stroke: #A36FF7;
 }
 
 .spinner-md-conocimiento.spinner-bubbles circle,
 .spinner-md-conocimiento.spinner-circles circle,
 .spinner-md-conocimiento.spinner-dots circle {
-  fill: #F8E71C;
+  fill: #A36FF7;
 }
 
 .spinner-md-comunicacion.spinner-ios line,
 .spinner-md-comunicacion.spinner-ios-small line,
 .spinner-md-comunicacion.spinner-crescent circle {
-  stroke: #C09AFF;
+  stroke: #FB8F58;
 }
 
 .spinner-md-comunicacion.spinner-bubbles circle,
 .spinner-md-comunicacion.spinner-circles circle,
 .spinner-md-comunicacion.spinner-dots circle {
-  fill: #C09AFF;
+  fill: #FB8F58;
 }
 
 .spinner-wp-ios line,
@@ -19912,37 +19912,37 @@ ion-spinner.spinner-paused svg {
 .spinner-wp-confianza.spinner-ios line,
 .spinner-wp-confianza.spinner-ios-small line,
 .spinner-wp-confianza.spinner-crescent circle {
-  stroke: #50E3C2;
+  stroke: #19D0A7;
 }
 
 .spinner-wp-confianza.spinner-bubbles circle,
 .spinner-wp-confianza.spinner-circles circle,
 .spinner-wp-confianza.spinner-dots circle {
-  fill: #50E3C2;
+  fill: #19D0A7;
 }
 
 .spinner-wp-conocimiento.spinner-ios line,
 .spinner-wp-conocimiento.spinner-ios-small line,
 .spinner-wp-conocimiento.spinner-crescent circle {
-  stroke: #F8E71C;
+  stroke: #A36FF7;
 }
 
 .spinner-wp-conocimiento.spinner-bubbles circle,
 .spinner-wp-conocimiento.spinner-circles circle,
 .spinner-wp-conocimiento.spinner-dots circle {
-  fill: #F8E71C;
+  fill: #A36FF7;
 }
 
 .spinner-wp-comunicacion.spinner-ios line,
 .spinner-wp-comunicacion.spinner-ios-small line,
 .spinner-wp-comunicacion.spinner-crescent circle {
-  stroke: #C09AFF;
+  stroke: #FB8F58;
 }
 
 .spinner-wp-comunicacion.spinner-bubbles circle,
 .spinner-wp-comunicacion.spinner-circles circle,
 .spinner-wp-comunicacion.spinner-dots circle {
-  fill: #C09AFF;
+  fill: #FB8F58;
 }
 
 .tabbar {
@@ -20296,8 +20296,8 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-ios-confianza .tabbar {
-  border-color: #24dcb3;
-  background-color: #50E3C2;
+  border-color: #14a282;
+  background-color: #19D0A7;
 }
 
 .tabs-ios-confianza .tab-button,
@@ -20313,25 +20313,25 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-ios-conocimiento .tabbar {
-  border-color: #daca07;
-  background-color: #F8E71C;
+  border-color: #843ff4;
+  background-color: #A36FF7;
 }
 
 .tabs-ios-conocimiento .tab-button,
 .tabs-ios-conocimiento .tab-button-icon,
 .tabs-ios-conocimiento .tab-button:hover:not(.disable-hover),
 .tabs-ios-conocimiento .tab-button:hover:not(.disable-hover) .tab-button-icon {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .tabs-ios-conocimiento .tab-button[aria-selected=true],
 .tabs-ios-conocimiento .tab-button[aria-selected=true] .tab-button-icon {
-  color: #000;
+  color: #fff;
 }
 
 .tabs-ios-comunicacion .tabbar {
-  border-color: #a067ff;
-  background-color: #C09AFF;
+  border-color: #fa6e26;
+  background-color: #FB8F58;
 }
 
 .tabs-ios-comunicacion .tab-button,
@@ -20586,7 +20586,7 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-md-confianza .tabbar {
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .tabs-md-confianza .tab-button,
@@ -20605,26 +20605,26 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-md-conocimiento .tabbar {
-  background-color: #F8E71C;
+  background-color: #A36FF7;
 }
 
 .tabs-md-conocimiento .tab-button,
 .tabs-md-conocimiento .tab-button-icon {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .tabs-md-conocimiento .tab-button:hover:not(.disable-hover),
 .tabs-md-conocimiento .tab-button[aria-selected=true],
 .tabs-md-conocimiento .tab-button[aria-selected=true] .tab-button-icon {
-  color: #000;
+  color: #fff;
 }
 
 .tabs-md-conocimiento[tabsHighlight=true] .tab-highlight {
-  background: #000;
+  background: #fff;
 }
 
 .tabs-md-comunicacion .tabbar {
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .tabs-md-comunicacion .tab-button,
@@ -20832,7 +20832,7 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-wp-confianza .tabbar {
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .tabs-wp-confianza .tab-button,
@@ -20849,24 +20849,24 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-wp-conocimiento .tabbar {
-  background-color: #F8E71C;
+  background-color: #A36FF7;
 }
 
 .tabs-wp-conocimiento .tab-button,
 .tabs-wp-conocimiento .tab-button-icon {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .tabs-wp-conocimiento .tab-button:hover:not(.disable-hover),
 .tabs-wp-conocimiento .tab-button:hover:not(.disable-hover) .tab-button-icon,
 .tabs-wp-conocimiento .tab-button[aria-selected=true],
 .tabs-wp-conocimiento .tab-button[aria-selected=true] .tab-button-icon {
-  border-color: #000;
-  color: #000;
+  border-color: #fff;
+  color: #fff;
 }
 
 .tabs-wp-comunicacion .tabbar {
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .tabs-wp-comunicacion .tab-button,
@@ -21137,15 +21137,15 @@ ion-toast {
 }
 
 .toggle-ios-confianza .toggle-checked {
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toggle-ios-conocimiento .toggle-checked {
-  background-color: #F8E71C;
+  background-color: #A36FF7;
 }
 
 .toggle-ios-comunicacion .toggle-checked {
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toggle-md {
@@ -21269,27 +21269,27 @@ ion-toast {
 }
 
 .toggle-md-confianza .toggle-checked {
-  background-color: #bef5e8;
+  background-color: #7aefd5;
 }
 
 .toggle-md-confianza .toggle-checked .toggle-inner {
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toggle-md-conocimiento .toggle-checked {
-  background-color: #fcf498;
+  background-color: #f0e8fe;
 }
 
 .toggle-md-conocimiento .toggle-checked .toggle-inner {
-  background-color: #F8E71C;
+  background-color: #A36FF7;
 }
 
 .toggle-md-comunicacion .toggle-checked {
-  background-color: white;
+  background-color: #fee3d5;
 }
 
 .toggle-md-comunicacion .toggle-checked .toggle-inner {
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toggle-wp {
@@ -21420,8 +21420,8 @@ ion-toast {
 }
 
 .toggle-wp-confianza .toggle-checked {
-  border-color: #50E3C2;
-  background-color: #50E3C2;
+  border-color: #19D0A7;
+  background-color: #19D0A7;
 }
 
 .toggle-wp-confianza .toggle-checked .toggle-inner {
@@ -21429,17 +21429,17 @@ ion-toast {
 }
 
 .toggle-wp-conocimiento .toggle-checked {
-  border-color: #F8E71C;
-  background-color: #F8E71C;
+  border-color: #A36FF7;
+  background-color: #A36FF7;
 }
 
 .toggle-wp-conocimiento .toggle-checked .toggle-inner {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .toggle-wp-comunicacion .toggle-checked {
-  border-color: #C09AFF;
-  background-color: #C09AFF;
+  border-color: #FB8F58;
+  background-color: #FB8F58;
 }
 
 .toggle-wp-comunicacion .toggle-checked .toggle-inner {
@@ -22131,14 +22131,14 @@ ion-navbar.toolbar {
 .toolbar-ios-primary .bar-button-confianza-ios,
 .toolbar-ios-primary .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-primary .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-primary .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-primary .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-primary .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-primary .bar-button-confianza-ios.activated,
@@ -22148,37 +22148,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-primary .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-primary .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-primary .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-primary .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-primary .bar-button-conocimiento-ios,
 .toolbar-ios-primary .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-primary .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-primary .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-primary .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-primary .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-primary .bar-button-conocimiento-ios.activated,
@@ -22188,37 +22188,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-primary .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-primary .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-primary .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-primary .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-primary .bar-button-comunicacion-ios,
 .toolbar-ios-primary .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-primary .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-primary .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-primary .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-primary .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-primary .bar-button-comunicacion-ios.activated,
@@ -22228,24 +22228,24 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-primary .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-primary .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-primary .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-primary .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-primary-ios,
@@ -22581,14 +22581,14 @@ ion-navbar.toolbar {
 .toolbar-ios-secondary .bar-button-confianza-ios,
 .toolbar-ios-secondary .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-secondary .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-secondary .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-secondary .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-secondary .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-secondary .bar-button-confianza-ios.activated,
@@ -22598,37 +22598,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-secondary .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-secondary .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-secondary .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-secondary .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-secondary .bar-button-conocimiento-ios,
 .toolbar-ios-secondary .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-secondary .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-secondary .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-secondary .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-secondary .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-secondary .bar-button-conocimiento-ios.activated,
@@ -22638,37 +22638,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-secondary .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-secondary .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-secondary .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-secondary .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-secondary .bar-button-comunicacion-ios,
 .toolbar-ios-secondary .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-secondary .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-secondary .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-secondary .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-secondary .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-secondary .bar-button-comunicacion-ios.activated,
@@ -22678,24 +22678,24 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-secondary .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-secondary .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-secondary .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-secondary .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-secondary-ios,
@@ -23031,14 +23031,14 @@ ion-navbar.toolbar {
 .toolbar-ios-danger .bar-button-confianza-ios,
 .toolbar-ios-danger .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-danger .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-danger .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-danger .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-danger .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-danger .bar-button-confianza-ios.activated,
@@ -23048,37 +23048,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-danger .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-danger .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-danger .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-danger .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-danger .bar-button-conocimiento-ios,
 .toolbar-ios-danger .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-danger .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-danger .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-danger .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-danger .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-danger .bar-button-conocimiento-ios.activated,
@@ -23088,37 +23088,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-danger .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-danger .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-danger .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-danger .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-danger .bar-button-comunicacion-ios,
 .toolbar-ios-danger .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-danger .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-danger .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-danger .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-danger .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-danger .bar-button-comunicacion-ios.activated,
@@ -23128,24 +23128,24 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-danger .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-danger .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-danger .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-danger .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-danger-ios,
@@ -23481,14 +23481,14 @@ ion-navbar.toolbar {
 .toolbar-ios-light .bar-button-confianza-ios,
 .toolbar-ios-light .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-light .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-light .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-light .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-light .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-light .bar-button-confianza-ios.activated,
@@ -23498,37 +23498,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-light .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-light .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-light .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-light .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-light .bar-button-conocimiento-ios,
 .toolbar-ios-light .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-light .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-light .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-light .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-light .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-light .bar-button-conocimiento-ios.activated,
@@ -23538,37 +23538,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-light .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-light .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-light .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-light .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-light .bar-button-comunicacion-ios,
 .toolbar-ios-light .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-light .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-light .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-light .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-light .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-light .bar-button-comunicacion-ios.activated,
@@ -23578,24 +23578,24 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-light .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-light .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-light .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-light .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-light-ios,
@@ -23931,14 +23931,14 @@ ion-navbar.toolbar {
 .toolbar-ios-dark .bar-button-confianza-ios,
 .toolbar-ios-dark .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-dark .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-dark .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-dark .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-dark .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-dark .bar-button-confianza-ios.activated,
@@ -23948,37 +23948,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-dark .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-dark .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-dark .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-dark .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-dark .bar-button-conocimiento-ios,
 .toolbar-ios-dark .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-dark .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-dark .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-dark .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-dark .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-dark .bar-button-conocimiento-ios.activated,
@@ -23988,37 +23988,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-dark .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-dark .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-dark .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-dark .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-dark .bar-button-comunicacion-ios,
 .toolbar-ios-dark .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-dark .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-dark .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-dark .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-dark .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-dark .bar-button-comunicacion-ios.activated,
@@ -24028,24 +24028,24 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-dark .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-dark .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-dark .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-dark .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-dark-ios,
@@ -24381,14 +24381,14 @@ ion-navbar.toolbar {
 .toolbar-ios-rojo .bar-button-confianza-ios,
 .toolbar-ios-rojo .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-rojo .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-rojo .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-rojo .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-rojo .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-rojo .bar-button-confianza-ios.activated,
@@ -24398,37 +24398,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-rojo .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-rojo .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-rojo .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-rojo .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-rojo .bar-button-conocimiento-ios,
 .toolbar-ios-rojo .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-rojo .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-rojo .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-rojo .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-rojo .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-rojo .bar-button-conocimiento-ios.activated,
@@ -24438,37 +24438,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-rojo .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-rojo .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-rojo .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-rojo .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-rojo .bar-button-comunicacion-ios,
 .toolbar-ios-rojo .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-rojo .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-rojo .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-rojo .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-rojo .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-rojo .bar-button-comunicacion-ios.activated,
@@ -24478,24 +24478,24 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-rojo .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-rojo .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-rojo .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-rojo .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-rojo-ios,
@@ -24831,14 +24831,14 @@ ion-navbar.toolbar {
 .toolbar-ios-seguridad .bar-button-confianza-ios,
 .toolbar-ios-seguridad .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-seguridad .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-seguridad .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-seguridad .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-seguridad .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-seguridad .bar-button-confianza-ios.activated,
@@ -24848,37 +24848,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-seguridad .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-seguridad .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-seguridad .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-seguridad .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-seguridad .bar-button-conocimiento-ios,
 .toolbar-ios-seguridad .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-seguridad .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-seguridad .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-seguridad .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-seguridad .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-seguridad .bar-button-conocimiento-ios.activated,
@@ -24888,37 +24888,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-seguridad .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-seguridad .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-seguridad .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-seguridad .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-seguridad .bar-button-comunicacion-ios,
 .toolbar-ios-seguridad .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-seguridad .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-seguridad .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-seguridad .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-seguridad .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-seguridad .bar-button-comunicacion-ios.activated,
@@ -24928,24 +24928,24 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-seguridad .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-seguridad .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-seguridad .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-seguridad .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-seguridad-ios,
@@ -24989,7 +24989,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-confianza .toolbar-background-ios {
-  background: #50E3C2;
+  background: #19D0A7;
 }
 
 .toolbar-ios-confianza .toolbar-title-ios,
@@ -25281,14 +25281,14 @@ ion-navbar.toolbar {
 .toolbar-ios-confianza .bar-button-confianza-ios,
 .toolbar-ios-confianza .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-confianza .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-confianza .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-confianza .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-confianza .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-confianza .bar-button-confianza-ios.activated,
@@ -25298,37 +25298,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-confianza .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-confianza .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-confianza .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-confianza .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-confianza .bar-button-conocimiento-ios,
 .toolbar-ios-confianza .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-confianza .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-confianza .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-confianza .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-confianza .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-confianza .bar-button-conocimiento-ios.activated,
@@ -25338,37 +25338,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-confianza .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-confianza .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-confianza .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-confianza .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-confianza .bar-button-comunicacion-ios,
 .toolbar-ios-confianza .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-confianza .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-confianza .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-confianza .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-confianza .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-confianza .bar-button-comunicacion-ios.activated,
@@ -25378,37 +25378,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-confianza .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-confianza .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-confianza .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-confianza .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-confianza-ios,
 .bar-button-default.bar-button-ios-confianza,
 .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .bar-button-confianza-ios:hover:not(.disable-hover),
 .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .bar-button-confianza-ios.activated,
@@ -25418,34 +25418,34 @@ ion-navbar.toolbar {
 }
 
 .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-conocimiento .toolbar-background-ios {
-  background: #F8E71C;
+  background: #A36FF7;
 }
 
 .toolbar-ios-conocimiento .toolbar-title-ios,
 .toolbar-ios-conocimiento .bar-button-clear-ios,
 .toolbar-ios-conocimiento .bar-button-default-ios {
-  color: #000;
+  color: #fff;
 }
 
 .toolbar-ios-conocimiento .bar-button-primary-ios,
@@ -25731,14 +25731,14 @@ ion-navbar.toolbar {
 .toolbar-ios-conocimiento .bar-button-confianza-ios,
 .toolbar-ios-conocimiento .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-conocimiento .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-conocimiento .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-conocimiento .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-conocimiento .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-conocimiento .bar-button-confianza-ios.activated,
@@ -25748,37 +25748,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-conocimiento .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-conocimiento .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-conocimiento .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-conocimiento .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-conocimiento .bar-button-conocimiento-ios,
 .toolbar-ios-conocimiento .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-conocimiento .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-conocimiento .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-conocimiento .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-conocimiento .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-conocimiento .bar-button-conocimiento-ios.activated,
@@ -25788,37 +25788,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-conocimiento .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-conocimiento .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-conocimiento .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-conocimiento .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-conocimiento .bar-button-comunicacion-ios,
 .toolbar-ios-conocimiento .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-conocimiento .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-conocimiento .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-conocimiento .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-conocimiento .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-conocimiento .bar-button-comunicacion-ios.activated,
@@ -25828,37 +25828,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-conocimiento .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-conocimiento .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-conocimiento .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-conocimiento .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-conocimiento-ios,
 .bar-button-default.bar-button-ios-conocimiento,
 .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .bar-button-conocimiento-ios.activated,
@@ -25868,28 +25868,28 @@ ion-navbar.toolbar {
 }
 
 .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-comunicacion .toolbar-background-ios {
-  background: #C09AFF;
+  background: #FB8F58;
 }
 
 .toolbar-ios-comunicacion .toolbar-title-ios,
@@ -26181,14 +26181,14 @@ ion-navbar.toolbar {
 .toolbar-ios-comunicacion .bar-button-confianza-ios,
 .toolbar-ios-comunicacion .bar-button-default.bar-button-ios-confianza,
 .toolbar-ios-comunicacion .bar-button-clear-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-comunicacion .bar-button-confianza-ios:hover:not(.disable-hover),
 .toolbar-ios-comunicacion .bar-button-default.bar-button-ios-confianza:hover:not(.disable-hover),
 .toolbar-ios-comunicacion .bar-button-clear-ios-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-ios-comunicacion .bar-button-confianza-ios.activated,
@@ -26198,37 +26198,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-comunicacion .bar-button-outline-ios-confianza {
-  border-color: #50E3C2;
-  color: #50E3C2;
+  border-color: #19D0A7;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-ios-comunicacion .bar-button-outline-ios-confianza.activated {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-comunicacion .bar-button-solid-ios-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-ios-comunicacion .bar-button-solid-ios-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-ios-comunicacion .bar-button-conocimiento-ios,
 .toolbar-ios-comunicacion .bar-button-default.bar-button-ios-conocimiento,
 .toolbar-ios-comunicacion .bar-button-clear-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-comunicacion .bar-button-conocimiento-ios:hover:not(.disable-hover),
 .toolbar-ios-comunicacion .bar-button-default.bar-button-ios-conocimiento:hover:not(.disable-hover),
 .toolbar-ios-comunicacion .bar-button-clear-ios-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-ios-comunicacion .bar-button-conocimiento-ios.activated,
@@ -26238,37 +26238,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-comunicacion .bar-button-outline-ios-conocimiento {
-  border-color: #F8E71C;
-  color: #F8E71C;
+  border-color: #A36FF7;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-ios-comunicacion .bar-button-outline-ios-conocimiento.activated {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-comunicacion .bar-button-solid-ios-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-ios-comunicacion .bar-button-solid-ios-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-ios-comunicacion .bar-button-comunicacion-ios,
 .toolbar-ios-comunicacion .bar-button-default.bar-button-ios-comunicacion,
 .toolbar-ios-comunicacion .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-comunicacion .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .toolbar-ios-comunicacion .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .toolbar-ios-comunicacion .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-ios-comunicacion .bar-button-comunicacion-ios.activated,
@@ -26278,37 +26278,37 @@ ion-navbar.toolbar {
 }
 
 .toolbar-ios-comunicacion .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-ios-comunicacion .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-comunicacion .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-ios-comunicacion .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-comunicacion-ios,
 .bar-button-default.bar-button-ios-comunicacion,
 .bar-button-clear-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .bar-button-comunicacion-ios:hover:not(.disable-hover),
 .bar-button-default.bar-button-ios-comunicacion:hover:not(.disable-hover),
 .bar-button-clear-ios-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .bar-button-comunicacion-ios.activated,
@@ -26318,24 +26318,24 @@ ion-navbar.toolbar {
 }
 
 .bar-button-outline-ios-comunicacion {
-  border-color: #C09AFF;
-  color: #C09AFF;
+  border-color: #FB8F58;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .bar-button-outline-ios-comunicacion.activated {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .bar-button-solid-ios-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .bar-button-solid-ios-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-strong-ios {
@@ -26857,19 +26857,19 @@ ion-navbar.toolbar {
 .toolbar-md-primary .bar-button-confianza-md,
 .toolbar-md-primary .bar-button-clear-md-confianza,
 .toolbar-md-primary .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-primary .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-primary .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-primary .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-primary .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -26878,35 +26878,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-primary .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-primary .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-primary .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-primary .bar-button-conocimiento-md,
 .toolbar-md-primary .bar-button-clear-md-conocimiento,
 .toolbar-md-primary .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-primary .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-primary .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-primary .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-primary .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -26915,35 +26915,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-primary .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-primary .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-primary .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-primary .bar-button-comunicacion-md,
 .toolbar-md-primary .bar-button-clear-md-comunicacion,
 .toolbar-md-primary .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-primary .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-primary .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-primary .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-primary .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -26952,17 +26952,17 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-primary .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-primary .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-primary .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-primary-md,
@@ -27285,19 +27285,19 @@ ion-navbar.toolbar {
 .toolbar-md-secondary .bar-button-confianza-md,
 .toolbar-md-secondary .bar-button-clear-md-confianza,
 .toolbar-md-secondary .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-secondary .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-secondary .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-secondary .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-secondary .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -27306,35 +27306,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-secondary .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-secondary .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-secondary .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-secondary .bar-button-conocimiento-md,
 .toolbar-md-secondary .bar-button-clear-md-conocimiento,
 .toolbar-md-secondary .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-secondary .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-secondary .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-secondary .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-secondary .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -27343,35 +27343,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-secondary .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-secondary .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-secondary .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-secondary .bar-button-comunicacion-md,
 .toolbar-md-secondary .bar-button-clear-md-comunicacion,
 .toolbar-md-secondary .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-secondary .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-secondary .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-secondary .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-secondary .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -27380,17 +27380,17 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-secondary .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-secondary .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-secondary .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-secondary-md,
@@ -27713,19 +27713,19 @@ ion-navbar.toolbar {
 .toolbar-md-danger .bar-button-confianza-md,
 .toolbar-md-danger .bar-button-clear-md-confianza,
 .toolbar-md-danger .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-danger .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-danger .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-danger .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-danger .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -27734,35 +27734,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-danger .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-danger .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-danger .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-danger .bar-button-conocimiento-md,
 .toolbar-md-danger .bar-button-clear-md-conocimiento,
 .toolbar-md-danger .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-danger .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-danger .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-danger .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-danger .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -27771,35 +27771,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-danger .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-danger .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-danger .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-danger .bar-button-comunicacion-md,
 .toolbar-md-danger .bar-button-clear-md-comunicacion,
 .toolbar-md-danger .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-danger .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-danger .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-danger .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-danger .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -27808,17 +27808,17 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-danger .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-danger .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-danger .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-danger-md,
@@ -28141,19 +28141,19 @@ ion-navbar.toolbar {
 .toolbar-md-light .bar-button-confianza-md,
 .toolbar-md-light .bar-button-clear-md-confianza,
 .toolbar-md-light .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-light .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-light .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-light .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-light .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -28162,35 +28162,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-light .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-light .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-light .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-light .bar-button-conocimiento-md,
 .toolbar-md-light .bar-button-clear-md-conocimiento,
 .toolbar-md-light .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-light .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-light .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-light .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-light .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -28199,35 +28199,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-light .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-light .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-light .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-light .bar-button-comunicacion-md,
 .toolbar-md-light .bar-button-clear-md-comunicacion,
 .toolbar-md-light .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-light .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-light .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-light .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-light .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -28236,17 +28236,17 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-light .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-light .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-light .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-light-md,
@@ -28569,19 +28569,19 @@ ion-navbar.toolbar {
 .toolbar-md-dark .bar-button-confianza-md,
 .toolbar-md-dark .bar-button-clear-md-confianza,
 .toolbar-md-dark .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-dark .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-dark .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-dark .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-dark .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -28590,35 +28590,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-dark .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-dark .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-dark .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-dark .bar-button-conocimiento-md,
 .toolbar-md-dark .bar-button-clear-md-conocimiento,
 .toolbar-md-dark .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-dark .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-dark .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-dark .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-dark .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -28627,35 +28627,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-dark .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-dark .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-dark .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-dark .bar-button-comunicacion-md,
 .toolbar-md-dark .bar-button-clear-md-comunicacion,
 .toolbar-md-dark .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-dark .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-dark .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-dark .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-dark .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -28664,17 +28664,17 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-dark .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-dark .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-dark .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-dark-md,
@@ -28997,19 +28997,19 @@ ion-navbar.toolbar {
 .toolbar-md-rojo .bar-button-confianza-md,
 .toolbar-md-rojo .bar-button-clear-md-confianza,
 .toolbar-md-rojo .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-rojo .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-rojo .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-rojo .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-rojo .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -29018,35 +29018,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-rojo .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-rojo .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-rojo .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-rojo .bar-button-conocimiento-md,
 .toolbar-md-rojo .bar-button-clear-md-conocimiento,
 .toolbar-md-rojo .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-rojo .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-rojo .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-rojo .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-rojo .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -29055,35 +29055,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-rojo .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-rojo .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-rojo .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-rojo .bar-button-comunicacion-md,
 .toolbar-md-rojo .bar-button-clear-md-comunicacion,
 .toolbar-md-rojo .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-rojo .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-rojo .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-rojo .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-rojo .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -29092,17 +29092,17 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-rojo .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-rojo .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-rojo .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-rojo-md,
@@ -29425,19 +29425,19 @@ ion-navbar.toolbar {
 .toolbar-md-seguridad .bar-button-confianza-md,
 .toolbar-md-seguridad .bar-button-clear-md-confianza,
 .toolbar-md-seguridad .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-seguridad .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-seguridad .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-seguridad .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-seguridad .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -29446,35 +29446,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-seguridad .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-seguridad .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-seguridad .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-seguridad .bar-button-conocimiento-md,
 .toolbar-md-seguridad .bar-button-clear-md-conocimiento,
 .toolbar-md-seguridad .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-seguridad .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-seguridad .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-seguridad .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-seguridad .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -29483,35 +29483,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-seguridad .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-seguridad .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-seguridad .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-seguridad .bar-button-comunicacion-md,
 .toolbar-md-seguridad .bar-button-clear-md-comunicacion,
 .toolbar-md-seguridad .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-seguridad .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-seguridad .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-seguridad .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-seguridad .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -29520,17 +29520,17 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-seguridad .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-seguridad .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-seguridad .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-seguridad-md,
@@ -29571,7 +29571,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-confianza .toolbar-background-md {
-  background: #50E3C2;
+  background: #19D0A7;
 }
 
 .toolbar-md-confianza .bar-button-clear-md,
@@ -29853,19 +29853,19 @@ ion-navbar.toolbar {
 .toolbar-md-confianza .bar-button-confianza-md,
 .toolbar-md-confianza .bar-button-clear-md-confianza,
 .toolbar-md-confianza .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-confianza .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-confianza .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-confianza .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-confianza .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -29874,35 +29874,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-confianza .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-confianza .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-confianza .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-confianza .bar-button-conocimiento-md,
 .toolbar-md-confianza .bar-button-clear-md-conocimiento,
 .toolbar-md-confianza .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-confianza .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-confianza .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-confianza .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-confianza .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -29911,35 +29911,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-confianza .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-confianza .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-confianza .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-confianza .bar-button-comunicacion-md,
 .toolbar-md-confianza .bar-button-clear-md-comunicacion,
 .toolbar-md-confianza .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-confianza .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-confianza .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-confianza .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-confianza .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -29948,35 +29948,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-confianza .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-confianza .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-confianza .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-confianza-md,
 .bar-button-clear-md-confianza,
 .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .bar-button-confianza-md:hover:not(.disable-hover),
 .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -29985,38 +29985,38 @@ ion-navbar.toolbar {
 }
 
 .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-conocimiento .toolbar-background-md {
-  background: #F8E71C;
+  background: #A36FF7;
 }
 
 .toolbar-md-conocimiento .bar-button-clear-md,
 .toolbar-md-conocimiento .bar-button-default-md,
 .toolbar-md-conocimiento .bar-button-outline-md,
 .toolbar-md-conocimiento .toolbar-title-md {
-  color: #424242;
+  color: #fff;
 }
 
 .toolbar-md-conocimiento .bar-button-clear-md .button-effect,
 .toolbar-md-conocimiento .bar-button-default-md .button-effect,
 .toolbar-md-conocimiento .bar-button-outline-md .button-effect {
-  background-color: #424242;
+  background-color: #fff;
 }
 
 .toolbar-md-conocimiento .bar-button-outline-md {
-  border-color: #424242;
+  border-color: #fff;
 }
 
 .toolbar-md-conocimiento .bar-button-primary-md,
@@ -30281,19 +30281,19 @@ ion-navbar.toolbar {
 .toolbar-md-conocimiento .bar-button-confianza-md,
 .toolbar-md-conocimiento .bar-button-clear-md-confianza,
 .toolbar-md-conocimiento .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-conocimiento .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-conocimiento .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-conocimiento .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-conocimiento .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -30302,35 +30302,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-conocimiento .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-conocimiento .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-conocimiento .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-conocimiento .bar-button-conocimiento-md,
 .toolbar-md-conocimiento .bar-button-clear-md-conocimiento,
 .toolbar-md-conocimiento .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-conocimiento .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-conocimiento .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-conocimiento .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-conocimiento .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -30339,35 +30339,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-conocimiento .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-conocimiento .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-conocimiento .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-conocimiento .bar-button-comunicacion-md,
 .toolbar-md-conocimiento .bar-button-clear-md-comunicacion,
 .toolbar-md-conocimiento .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-conocimiento .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-conocimiento .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-conocimiento .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-conocimiento .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -30376,35 +30376,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-conocimiento .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-conocimiento .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-conocimiento .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-conocimiento-md,
 .bar-button-clear-md-conocimiento,
 .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .bar-button-conocimiento-md:hover:not(.disable-hover),
 .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -30413,21 +30413,21 @@ ion-navbar.toolbar {
 }
 
 .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-comunicacion .toolbar-background-md {
-  background: #C09AFF;
+  background: #FB8F58;
 }
 
 .toolbar-md-comunicacion .bar-button-clear-md,
@@ -30709,19 +30709,19 @@ ion-navbar.toolbar {
 .toolbar-md-comunicacion .bar-button-confianza-md,
 .toolbar-md-comunicacion .bar-button-clear-md-confianza,
 .toolbar-md-comunicacion .bar-button-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-md-comunicacion .bar-button-confianza-md:hover:not(.disable-hover),
 .toolbar-md-comunicacion .bar-button-clear-md-confianza:hover:not(.disable-hover),
 .toolbar-md-comunicacion .bar-button-md-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-md-comunicacion .bar-button-outline-md-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
@@ -30730,35 +30730,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-comunicacion .bar-button-outline-md-confianza .button-effect {
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-comunicacion .bar-button-solid-md-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-md-comunicacion .bar-button-solid-md-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-md-comunicacion .bar-button-conocimiento-md,
 .toolbar-md-comunicacion .bar-button-clear-md-conocimiento,
 .toolbar-md-comunicacion .bar-button-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-md-comunicacion .bar-button-conocimiento-md:hover:not(.disable-hover),
 .toolbar-md-comunicacion .bar-button-clear-md-conocimiento:hover:not(.disable-hover),
 .toolbar-md-comunicacion .bar-button-md-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-md-comunicacion .bar-button-outline-md-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
@@ -30767,35 +30767,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-comunicacion .bar-button-outline-md-conocimiento .button-effect {
-  background-color: #e4d51a;
+  background-color: #9666e3;
 }
 
 .toolbar-md-comunicacion .bar-button-solid-md-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-md-comunicacion .bar-button-solid-md-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-md-comunicacion .bar-button-comunicacion-md,
 .toolbar-md-comunicacion .bar-button-clear-md-comunicacion,
 .toolbar-md-comunicacion .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-md-comunicacion .bar-button-comunicacion-md:hover:not(.disable-hover),
 .toolbar-md-comunicacion .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .toolbar-md-comunicacion .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-md-comunicacion .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -30804,35 +30804,35 @@ ion-navbar.toolbar {
 }
 
 .toolbar-md-comunicacion .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-md-comunicacion .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-md-comunicacion .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-comunicacion-md,
 .bar-button-clear-md-comunicacion,
 .bar-button-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .bar-button-comunicacion-md:hover:not(.disable-hover),
 .bar-button-clear-md-comunicacion:hover:not(.disable-hover),
 .bar-button-md-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .bar-button-outline-md-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
@@ -30841,17 +30841,17 @@ ion-navbar.toolbar {
 }
 
 .bar-button-outline-md-comunicacion .button-effect {
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-solid-md-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .bar-button-solid-md-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-strong-md {
@@ -31314,103 +31314,103 @@ ion-navbar.toolbar {
 .toolbar-wp-primary .bar-button-confianza-wp,
 .toolbar-wp-primary .bar-button-clear-wp-confianza,
 .toolbar-wp-primary .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-primary .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-primary .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-primary .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-primary .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-primary .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-primary .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-primary .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-primary .bar-button-conocimiento-wp,
 .toolbar-wp-primary .bar-button-clear-wp-conocimiento,
 .toolbar-wp-primary .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-primary .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-primary .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-primary .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-primary .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-primary .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-primary .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-primary .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-primary .bar-button-comunicacion-wp,
 .toolbar-wp-primary .bar-button-clear-wp-comunicacion,
 .toolbar-wp-primary .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-primary .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-primary .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-primary .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-primary .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-primary .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-primary .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-primary .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-primary-wp,
@@ -31703,103 +31703,103 @@ ion-navbar.toolbar {
 .toolbar-wp-secondary .bar-button-confianza-wp,
 .toolbar-wp-secondary .bar-button-clear-wp-confianza,
 .toolbar-wp-secondary .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-secondary .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-secondary .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-secondary .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-secondary .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-secondary .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-secondary .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-secondary .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-secondary .bar-button-conocimiento-wp,
 .toolbar-wp-secondary .bar-button-clear-wp-conocimiento,
 .toolbar-wp-secondary .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-secondary .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-secondary .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-secondary .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-secondary .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-secondary .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-secondary .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-secondary .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-secondary .bar-button-comunicacion-wp,
 .toolbar-wp-secondary .bar-button-clear-wp-comunicacion,
 .toolbar-wp-secondary .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-secondary .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-secondary .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-secondary .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-secondary .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-secondary .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-secondary .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-secondary .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-secondary-wp,
@@ -32092,103 +32092,103 @@ ion-navbar.toolbar {
 .toolbar-wp-danger .bar-button-confianza-wp,
 .toolbar-wp-danger .bar-button-clear-wp-confianza,
 .toolbar-wp-danger .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-danger .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-danger .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-danger .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-danger .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-danger .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-danger .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-danger .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-danger .bar-button-conocimiento-wp,
 .toolbar-wp-danger .bar-button-clear-wp-conocimiento,
 .toolbar-wp-danger .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-danger .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-danger .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-danger .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-danger .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-danger .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-danger .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-danger .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-danger .bar-button-comunicacion-wp,
 .toolbar-wp-danger .bar-button-clear-wp-comunicacion,
 .toolbar-wp-danger .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-danger .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-danger .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-danger .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-danger .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-danger .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-danger .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-danger .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-danger-wp,
@@ -32481,103 +32481,103 @@ ion-navbar.toolbar {
 .toolbar-wp-light .bar-button-confianza-wp,
 .toolbar-wp-light .bar-button-clear-wp-confianza,
 .toolbar-wp-light .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-light .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-light .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-light .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-light .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-light .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-light .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-light .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-light .bar-button-conocimiento-wp,
 .toolbar-wp-light .bar-button-clear-wp-conocimiento,
 .toolbar-wp-light .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-light .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-light .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-light .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-light .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-light .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-light .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-light .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-light .bar-button-comunicacion-wp,
 .toolbar-wp-light .bar-button-clear-wp-comunicacion,
 .toolbar-wp-light .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-light .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-light .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-light .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-light .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-light .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-light .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-light .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-light-wp,
@@ -32870,103 +32870,103 @@ ion-navbar.toolbar {
 .toolbar-wp-dark .bar-button-confianza-wp,
 .toolbar-wp-dark .bar-button-clear-wp-confianza,
 .toolbar-wp-dark .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-dark .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-dark .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-dark .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-dark .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-dark .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-dark .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-dark .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-dark .bar-button-conocimiento-wp,
 .toolbar-wp-dark .bar-button-clear-wp-conocimiento,
 .toolbar-wp-dark .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-dark .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-dark .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-dark .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-dark .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-dark .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-dark .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-dark .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-dark .bar-button-comunicacion-wp,
 .toolbar-wp-dark .bar-button-clear-wp-comunicacion,
 .toolbar-wp-dark .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-dark .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-dark .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-dark .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-dark .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-dark .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-dark .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-dark .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-dark-wp,
@@ -33259,103 +33259,103 @@ ion-navbar.toolbar {
 .toolbar-wp-rojo .bar-button-confianza-wp,
 .toolbar-wp-rojo .bar-button-clear-wp-confianza,
 .toolbar-wp-rojo .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-rojo .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-rojo .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-rojo .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-rojo .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-rojo .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-rojo .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-rojo .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-rojo .bar-button-conocimiento-wp,
 .toolbar-wp-rojo .bar-button-clear-wp-conocimiento,
 .toolbar-wp-rojo .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-rojo .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-rojo .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-rojo .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-rojo .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-rojo .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-rojo .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-rojo .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-rojo .bar-button-comunicacion-wp,
 .toolbar-wp-rojo .bar-button-clear-wp-comunicacion,
 .toolbar-wp-rojo .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-rojo .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-rojo .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-rojo .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-rojo .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-rojo .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-rojo .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-rojo .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-rojo-wp,
@@ -33648,103 +33648,103 @@ ion-navbar.toolbar {
 .toolbar-wp-seguridad .bar-button-confianza-wp,
 .toolbar-wp-seguridad .bar-button-clear-wp-confianza,
 .toolbar-wp-seguridad .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-seguridad .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-seguridad .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-seguridad .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-seguridad .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-seguridad .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-seguridad .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-seguridad .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-seguridad .bar-button-conocimiento-wp,
 .toolbar-wp-seguridad .bar-button-clear-wp-conocimiento,
 .toolbar-wp-seguridad .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-seguridad .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-seguridad .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-seguridad .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-seguridad .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-seguridad .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-seguridad .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-seguridad .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-seguridad .bar-button-comunicacion-wp,
 .toolbar-wp-seguridad .bar-button-clear-wp-comunicacion,
 .toolbar-wp-seguridad .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-seguridad .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-seguridad .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-seguridad .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-seguridad .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-seguridad .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-seguridad .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-seguridad .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-seguridad-wp,
@@ -33782,7 +33782,7 @@ ion-navbar.toolbar {
 }
 
 .toolbar-wp-confianza .toolbar-background-wp {
-  background: #50E3C2;
+  background: #19D0A7;
 }
 
 .toolbar-wp-confianza .bar-button-clear-wp,
@@ -34037,152 +34037,152 @@ ion-navbar.toolbar {
 .toolbar-wp-confianza .bar-button-confianza-wp,
 .toolbar-wp-confianza .bar-button-clear-wp-confianza,
 .toolbar-wp-confianza .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-confianza .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-confianza .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-confianza .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-confianza .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-confianza .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-confianza .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-confianza .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-confianza .bar-button-conocimiento-wp,
 .toolbar-wp-confianza .bar-button-clear-wp-conocimiento,
 .toolbar-wp-confianza .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-confianza .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-confianza .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-confianza .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-confianza .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-confianza .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-confianza .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-confianza .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-confianza .bar-button-comunicacion-wp,
 .toolbar-wp-confianza .bar-button-clear-wp-comunicacion,
 .toolbar-wp-confianza .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-confianza .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-confianza .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-confianza .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-confianza .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-confianza .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-confianza .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-confianza .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-confianza-wp,
 .bar-button-clear-wp-confianza,
 .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .bar-button-confianza-wp:hover:not(.disable-hover),
 .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-conocimiento .toolbar-background-wp {
-  background: #F8E71C;
+  background: #A36FF7;
 }
 
 .toolbar-wp-conocimiento .bar-button-clear-wp,
 .toolbar-wp-conocimiento .bar-button-default-wp,
 .toolbar-wp-conocimiento .bar-button-outline-wp,
 .toolbar-wp-conocimiento .toolbar-title-wp {
-  color: #000;
+  color: #fff;
 }
 
 .toolbar-wp-conocimiento .bar-button-outline-wp {
-  border-color: #000;
+  border-color: #fff;
 }
 
 .toolbar-wp-conocimiento .bar-button-primary-wp,
@@ -34426,141 +34426,141 @@ ion-navbar.toolbar {
 .toolbar-wp-conocimiento .bar-button-confianza-wp,
 .toolbar-wp-conocimiento .bar-button-clear-wp-confianza,
 .toolbar-wp-conocimiento .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-conocimiento .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-conocimiento .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-conocimiento .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-conocimiento .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-conocimiento .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-conocimiento .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-conocimiento .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-conocimiento .bar-button-conocimiento-wp,
 .toolbar-wp-conocimiento .bar-button-clear-wp-conocimiento,
 .toolbar-wp-conocimiento .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-conocimiento .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-conocimiento .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-conocimiento .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-conocimiento .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-conocimiento .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-conocimiento .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-conocimiento .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-conocimiento .bar-button-comunicacion-wp,
 .toolbar-wp-conocimiento .bar-button-clear-wp-comunicacion,
 .toolbar-wp-conocimiento .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-conocimiento .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-conocimiento .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-conocimiento .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-conocimiento .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-conocimiento .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-conocimiento .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-conocimiento .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-conocimiento-wp,
 .bar-button-clear-wp-conocimiento,
 .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-comunicacion .toolbar-background-wp {
-  background: #C09AFF;
+  background: #FB8F58;
 }
 
 .toolbar-wp-comunicacion .bar-button-clear-wp,
@@ -34815,137 +34815,137 @@ ion-navbar.toolbar {
 .toolbar-wp-comunicacion .bar-button-confianza-wp,
 .toolbar-wp-comunicacion .bar-button-clear-wp-confianza,
 .toolbar-wp-comunicacion .bar-button-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
   background-color: transparent;
 }
 
 .toolbar-wp-comunicacion .bar-button-confianza-wp:hover:not(.disable-hover),
 .toolbar-wp-comunicacion .bar-button-clear-wp-confianza:hover:not(.disable-hover),
 .toolbar-wp-comunicacion .bar-button-wp-confianza:hover:not(.disable-hover) {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .toolbar-wp-comunicacion .bar-button-outline-wp-confianza {
-  border-color: #4ad1b2;
-  color: #4ad1b2;
+  border-color: #2bd4ae;
+  color: #2bd4ae;
   background-color: transparent;
 }
 
 .toolbar-wp-comunicacion .bar-button-outline-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-comunicacion .bar-button-solid-wp-confianza {
   color: #fff;
-  background-color: #50E3C2;
+  background-color: #19D0A7;
 }
 
 .toolbar-wp-comunicacion .bar-button-solid-wp-confianza.activated {
   color: #fff;
-  background-color: #4ad1b2;
+  background-color: #2bd4ae;
 }
 
 .toolbar-wp-comunicacion .bar-button-conocimiento-wp,
 .toolbar-wp-comunicacion .bar-button-clear-wp-conocimiento,
 .toolbar-wp-comunicacion .bar-button-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
   background-color: transparent;
 }
 
 .toolbar-wp-comunicacion .bar-button-conocimiento-wp:hover:not(.disable-hover),
 .toolbar-wp-comunicacion .bar-button-clear-wp-conocimiento:hover:not(.disable-hover),
 .toolbar-wp-comunicacion .bar-button-wp-conocimiento:hover:not(.disable-hover) {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .toolbar-wp-comunicacion .bar-button-outline-wp-conocimiento {
-  border-color: #e4d51a;
-  color: #e4d51a;
+  border-color: #9666e3;
+  color: #9666e3;
   background-color: transparent;
 }
 
 .toolbar-wp-comunicacion .bar-button-outline-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-comunicacion .bar-button-solid-wp-conocimiento {
-  color: #000;
-  background-color: #F8E71C;
+  color: #fff;
+  background-color: #A36FF7;
 }
 
 .toolbar-wp-comunicacion .bar-button-solid-wp-conocimiento.activated {
-  color: #000;
-  background-color: #e4d51a;
+  color: #fff;
+  background-color: #9666e3;
 }
 
 .toolbar-wp-comunicacion .bar-button-comunicacion-wp,
 .toolbar-wp-comunicacion .bar-button-clear-wp-comunicacion,
 .toolbar-wp-comunicacion .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .toolbar-wp-comunicacion .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .toolbar-wp-comunicacion .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .toolbar-wp-comunicacion .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .toolbar-wp-comunicacion .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .toolbar-wp-comunicacion .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .toolbar-wp-comunicacion .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .toolbar-wp-comunicacion .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-comunicacion-wp,
 .bar-button-clear-wp-comunicacion,
 .bar-button-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
   background-color: transparent;
 }
 
 .bar-button-comunicacion-wp:hover:not(.disable-hover),
 .bar-button-clear-wp-comunicacion:hover:not(.disable-hover),
 .bar-button-wp-comunicacion:hover:not(.disable-hover) {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .bar-button-outline-wp-comunicacion {
-  border-color: #b18eeb;
-  color: #b18eeb;
+  border-color: #e78451;
+  color: #e78451;
   background-color: transparent;
 }
 
 .bar-button-outline-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-solid-wp-comunicacion {
   color: #fff;
-  background-color: #C09AFF;
+  background-color: #FB8F58;
 }
 
 .bar-button-solid-wp-comunicacion.activated {
   color: #fff;
-  background-color: #b18eeb;
+  background-color: #e78451;
 }
 
 .bar-button-strong-wp {
@@ -35098,15 +35098,15 @@ sub {
 }
 
 .text-ios-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .text-ios-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .text-ios-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .text-md-primary {
@@ -35138,15 +35138,15 @@ sub {
 }
 
 .text-md-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .text-md-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .text-md-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .text-wp-primary {
@@ -35178,15 +35178,15 @@ sub {
 }
 
 .text-wp-confianza {
-  color: #50E3C2;
+  color: #19D0A7;
 }
 
 .text-wp-conocimiento {
-  color: #F8E71C;
+  color: #A36FF7;
 }
 
 .text-wp-comunicacion {
-  color: #C09AFF;
+  color: #FB8F58;
 }
 
 .virtual-loading {

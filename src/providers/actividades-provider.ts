@@ -85,9 +85,6 @@ export class ActividadesProvider {
 			this.http.post(this.api + '/nueva_actividad', JSON.stringify(credenciales), {headers: headers})
 				.map(res => res.json())
 				.subscribe(data => {
-					let loader = this.loading.create({
-						content: 'Creando actividad...'
-					});
 					this.data = data.results;
 					/* Imprimir las actividades del usuario en la consola
 					console.log(data) */
@@ -97,7 +94,6 @@ export class ActividadesProvider {
 			loader.dismiss()
 		});
 	}
-
 
 	getTipos() {
 		/* getTipos: Funcion para recibir todos los tipos de las actividades. 
@@ -183,9 +179,6 @@ export class ActividadesProvider {
 	getInfoTags(credenciales) {
 		/* getImfoTags: manda credenciales a la API, retorna los tags con la info
 		del usuario, los puntajes y la meta */
-		if (this.tags_tab1) {
-			return Promise.resolve(this.tags_tab1);
-		}
 
 		// Crear loader
 		let loader = this.loading.create({

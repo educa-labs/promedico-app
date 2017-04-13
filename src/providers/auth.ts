@@ -41,6 +41,9 @@ export class Auth {
 	clinicas: any;
 	deptos: any;
 
+	// Url de la api
+	api: any = 'http://api.promedico.cl';
+
 	constructor(public http: Http, public loading: LoadingController) {}
 
 	// Funciones del provider
@@ -63,7 +66,7 @@ export class Auth {
 				let headers = new Headers();
 				headers.append('Content-Type', undefined);
 
-				this.http.post('http://api.promedico.cl/login', JSON.stringify(credentials), {headers: headers})
+				this.http.post(this.api + '/login', JSON.stringify(credentials), {headers: headers})
 					.map(res => res.json())
 					.subscribe(data => {
 						// Crear loader
@@ -107,7 +110,7 @@ export class Auth {
 				let headers = new Headers();
 				headers.append('Content-Type', undefined);
 
-				this.http.post('http://api.promedico.cl/signup', JSON.stringify(credentials), {headers: headers})
+				this.http.post(this.api + '/signup', JSON.stringify(credentials), {headers: headers})
 					.map(res => res.json())
 					.subscribe(data => {
 						// Crear loader
@@ -152,7 +155,7 @@ export class Auth {
 		// Retornar promesa
 		return new Promise(resolve => {
 			// GET a la API
-			this.http.get('http://api.promedico.cl/getclinicas')
+			this.http.get(this.api + '/getclinicas')
 				.map(res => res.json())
 				.subscribe(data => {
 					this.clinicas = data['clinicas'];
@@ -178,7 +181,7 @@ export class Auth {
 		// Retornar promesa
 		return new Promise(resolve => {
 			// GET a la API poniendo el id de la clinica
-			this.http.get('http://api.promedico.cl/getdeptos/' + id_clinica)
+			this.http.get(this.api + '/getdeptos/' + id_clinica)
 				.map(res => res.json())
 				.subscribe(data => {
 					this.deptos = data['deptos'];
