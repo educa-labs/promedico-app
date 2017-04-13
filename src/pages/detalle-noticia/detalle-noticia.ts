@@ -6,15 +6,15 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'detalle-noticia.html'
 })
 export class DetalleNoticiaPage {
-
+	/* DetalleNoticia: Pagina del detalle de una noticia seleccionada */
+	
 	// Navecacion entre noticias
 	noticiaSeleccionada: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  	this.noticiaSeleccionada = navParams.get('noticias')
-
-
-  }
-
-
+	constructor(
+		public navCtrl: NavController, 
+		public navParams: NavParams) {
+			// Configurar navegacion entre noticias
+			this.noticiaSeleccionada = navParams.get('noticias')
+	}
 }

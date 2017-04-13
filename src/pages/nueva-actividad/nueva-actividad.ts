@@ -1,109 +1,106 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-
+import { NavController, NavParams, LoadingController } from 'ionic-angular';
 // Importar Providers
 import { Auth } from '../../providers/auth';
 import { ActividadesProvider } from '../../providers/actividades-provider';
-
 // Importar otras paginas
 import { Page2 } from '../page2/page2';
 
-
 @Component({
-  selector: 'page-nueva-actividad',
-  templateUrl: 'nueva-actividad.html',
-  providers: [ActividadesProvider]
+	selector: 'page-nueva-actividad',
+	templateUrl: 'nueva-actividad.html',
+	providers: [ActividadesProvider]
 })
+
 export class NuevaActividadPage {
+	/* NuevaActividad: Pagina para que un usuario agregue una actividad */
 
-  isRound: boolean = true;
-  isOutline: boolean = true;
-  pages: Array<{title: string, component: any, color: string, isOutline: boolean}>;
+	// Credenciales para agregar actividades
+	credenciales: any;
+	// Tipos de la actividad
+	tipos: any;
+	// Tags de las actividades
+	tags: any;
+	// Data al recibir al intentar agregar actividad
+	data: any;
+	
 
-  // Credenciales para agregar actividades
-  credenciales: any;
-  titulo: string;
-  tipos: any;
-  reflexion: string;
+	constructor(
+		public navCtrl: NavController, 
+		public navParams: NavParams, 
+		private auth: Auth, 
+		public actividades_provider: ActividadesProvider,
+		public loading: LoadingController) {
 
-  data: any;
-  tags: any;
-  tags_clickeados: Array<{}>;
-  fecha_actual: any;
+			this.credenciales = { 
+				token: this.auth.getUserInfo().token, 
+				fecha: '', 
+				titulo: '', 
+				tipo: '', 
+				tags: [], 
+				reflexion: '' 
+			}
+			
+			// Cargar los tipos y tags de actividad
+			this.getTiposYTags();
+	}
 
+	public event = {
+		/* Funcion para setear la fecha */
+		fecha: '2017-01-01'
+	}
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private auth: Auth, public actividades_provider: ActividadesProvider) {
-    this.titulo = '';
-    this.fecha_actual = '';
-    this.credenciales = { token: this.auth.getUserInfo().token, fecha: '', titulo: '', tipo: '', tags: [], reflexion: '' }
-    this.getTipos();
-    this.getTags();
+	public nuevaActividad() {
+		/* nuevaActividad: funcion para enviar los datos y crear la actividad */
+		this.actividades_provider.nuevaActividad(this.credenciales)
+			.then(data => {
+				this.data = data
+			})
+		// Convertir la pagina de actividades en la pagina Root
+		this.navCtrl.setRoot(Page2)  
+	}
 
-  	/* this.pages = [
-      { title: 'Seguridad y calidad', component: '', color: 'seguridad', isOutline: true },
-      { title: 'Manteniendo la confianza', component: '', color: 'confianza', isOutline: true },
-      { title: 'Conocimiento, habilidades' , component: '', color: 'conocimiento', isOutline: true },
-      { title: 'Comunicación, trabajo en equipo', component: '', color: 'comunicacion', isOutline: true }
-    ]; */
+	getTiposYTags() {
+		/* getTiposYTags: funcion para recibir los tipos y los tags de las actividades
+		se guardan en sus respectivas variables */
+		this.actividades_provider.getTags()
+			.then(data => {
+				this.tags = data
+			})
 
-  }
+		this.actividades_provider.getTipos()
+			.then(data => {
+				this.tipos = data
+			})
+	}
 
-  public event = {
-    fecha: '2017-01-01'
-  }
+	agregarTag(p) {
+		/* agregarTag: al seleccionar un tag se agrega a una lista con los tags seleccionados
+		en credenciales.tags para después al crear actividad se envíe la lista */
 
-  itemTapped(event, item) {
-	  item.isOutline = !item.isOutline
-  }
-
-  public nuevaActividad() {
-    this.actividades_provider.nuevaActividad(this.credenciales)
-      .then(data => {
-        this.data = data
-      })
-
-    this.navCtrl.setRoot(Page2)  
-
-
-  }
-
-  getTipos() {
-    this.actividades_provider.getTipos()
-      .then(data => {
-        this.tipos = data;
-      })
-  }
-
-  getTags() {
-    this.actividades_provider.getTags()
-      .then(data => {
-        this.tags = data;
-        console.log(this.tags)
-      })
-  }
-
-  agregarTag(p) {
-    p.pico = !p.pico;
-    if (this.credenciales.tags.length == 0) {
-      this.credenciales.tags.push(p.id)
-    }
-
-    else {
-      //
-      if (p.pico == false) {
-          this.credenciales.tags.push(p.id)
-      }
-      for (let i in this.credenciales.tags) {
-        
-        if (this.credenciales.tags[i] === p.id && p.pico == true) {
-          this.credenciales.tags.splice(i, 1)
-        }
-      }
-    }
-
-    console.log(this.credenciales.tags)
-
-  }
-
-
+		// Seleccionar o deseleccionar tag
+		p.pico = !p.pico;
+		// Si la lista está vacía
+		if (this.credenciales.tags.length == 0) {
+			// Agregar primer item a la lista
+			this.credenciales.tags.push(p.id)
+		}
+		// Si la lista tiene elementos
+		else {
+			if (p.pico == false) {
+				// Agregar el id del tag a la lista
+				this.credenciales.tags.push(p.id)
+			}
+			// Recorrer lista
+			for (let i in this.credenciales.tags) {
+				// Si el item recorrido es igual al id que se selecciono
+				if (this.credenciales.tags[i] === p.id && p.pico == true) {
+					// Borrar elemento de la lista
+					this.credenciales.tags.splice(i, 1)
+				}
+			}
+		}
+		/* Para imprimir la lista 
+		console.log(this.credenciales.tags) */
+	}
 }

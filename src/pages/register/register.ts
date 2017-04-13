@@ -50,30 +50,16 @@ export class RegisterPage {
 
 
     getclinicas() {
-      this.http.get('http://educalabs.cl:5000/getclinicas')
-        .map(res => res.json())
-        .subscribe( data => {
-          let loader = this.loading.create({
-            content: 'Recibiendo información...',
-            duration: 2000
-          });
-          this.clinicas = data['clinicas'];
-          loader.present();
-          console.log(data['clinicas'])
+      this.auth.getClinicasInfo()
+        .then(data => {
+          this.clinicas = data
         })
     }
 
     getDeptos(clinica_id) {
-      this.http.get('http://educalabs.cl:5000/getdeptos/' + clinica_id)
-        .map(res => res.json())
-        .subscribe(data => {
-          let loader = this.loading.create({
-            content: 'Cargando departamentos...',
-            duration: 1000
-          });
-          this.deptos = data["deptos"];
-          loader.present()
-          console.log(data["deptos"])
-        })
+      this.auth.getDeptosInfo(clinica_id)
+        .then(data => {
+          this.deptos = data
+        });
     }
 }

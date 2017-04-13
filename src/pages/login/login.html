@@ -1,15 +1,15 @@
-<!-- Header con título de la página -->
+<!-- Login: Pagina principal al abrir la aplicación se muestra el formulario de login
+o boton para registrarse -->
 <ion-header>
 	<ion-navbar>
 		<ion-title>Login</ion-title>
 	</ion-navbar>
 </ion-header>
-<!-- Termina Header -->
-
 
 <ion-content>
-	<!-- Form de login -->
+	<!-- Div para el login -->
 	<div class="login-box">
+		<!-- Form del login. Al hacer submit llama a login() -->
 		<form (ngSubmit)="login()" #registerForm="ngForm">
 			<ion-row>
 				<ion-col>
@@ -19,29 +19,25 @@
 							<ion-label floating>Email</ion-label>
 							<ion-input type="text" name="mail" [(ngModel)]="registerCredentials.mail" required></ion-input>
 						</ion-item>
-
 						<!-- Input de Password -->
 						<ion-item>
 							<ion-label floating>Contraseña</ion-label>
               				<ion-input type="password" name="password" [(ngModel)]="registerCredentials.password" required></ion-input>
             			</ion-item>
             			<br>
-
             		</ion-list>
             	</ion-col>
             </ion-row>
-
-            <!-- Espacio para boton de Iniciar sesión y registrarse -->
+            <!-- Espacio para el boton de Iniciar sesión -->
             <ion-row>
             	<ion-col class="signup-col">
-            		<!-- Iniciar sesión -->
+            		<!-- Boton para Iniciar sesión -->
             		<button ion-button class="submit-btn" full type="submit" [disabled]="!registerForm.form.valid">Iniciar Sesión</button>
-            		<!-- Registrarse -->
-            		<button ion-button class="register-btn" block clear (click)="createAccount()">Crear una cuenta</button>
             	</ion-col>
             </ion-row>
-
 		</form>
-		<!-- Termina Form de Iniciar Sesión -->
+		<!-- // Termina Form de login -->
+		<!-- Registrarse -->
+        <button ion-button class="register-btn" block clear (click)="createAccount()">Crear una cuenta</button>
 	</div>       
 </ion-content>

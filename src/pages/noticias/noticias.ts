@@ -37,7 +37,7 @@ export class NoticiasPage {
   		{ id: 5, title: "Quinta Noticia", foto: "assets/img/card3.jpg", fecha: "", texto: "Descripcion de la noticia, texto más o menos largo, pero se limitan los caracteres", favorito: false }
    	];
 
-    this.cargarNoticias();
+   // this.cargarNoticias();
 
   }
 
@@ -53,12 +53,12 @@ export class NoticiasPage {
 	  item.favorito = !item.favorito
   };
 
-  cargarNoticias(){
+  /*cargarNoticias(){
     this.ActividadesProvider.load()
     .then(data => {
       this.persona = data;
     })
-  };
+  };*/
 
 
 

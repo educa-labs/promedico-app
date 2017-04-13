@@ -1,13 +1,13 @@
+<!-- Detalle sobre nosotros: Detalle al apretar una tarjeta de la 
+pagina sobre nosotros. Muestra contenido de la tarjeta.  -->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>{{ tarjetaseleccionada.title }}</ion-title>
-  </ion-navbar>
-
+	<ion-navbar>
+		<ion-title>{{ tarjetaseleccionada.title }}</ion-title>
+  	</ion-navbar>
 </ion-header>
 
-
 <ion-content padding>
+	<!-- Repetir el contenido del detalle de la tarjeta seleccionada -->
 	<p *ngFor="let n of tarjetaseleccionada.detalle">
 		{{ n }}
 	</p>

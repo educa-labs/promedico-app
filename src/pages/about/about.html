@@ -1,20 +1,24 @@
-<ion-header>
+<!-- Pagina sobre la aplicación: se muestran tarjetas con pequeña información sobre 
+como usar la aplicación y explicaciones -->
 
+<!-- Empieza Header -->
+<ion-header>
+	<!-- Navbar -->
   	<ion-navbar color="primary" no-border-bottom>
     	<button ion-button menuToggle>
 	    	<ion-icon name="menu"></ion-icon>
     	</button>
+    	<!-- Titulo que se muestra en la barra de navegacion -->
     	<ion-title>Sobre la aplicación</ion-title>
   	</ion-navbar>
-
 </ion-header>
+<!-- Termina Header -->
 
 
 <ion-content class="card-background-page">
-
+	<!-- Tarjetas con Repeat -->
 	<ion-card *ngFor="let p of tarjetas" (click)="itemTapped($event, p)">
 	    <img src="{{p.img}}"/>
 	    <div class="card-title">{{p.title}}</div>
 	</ion-card>
-
 </ion-content>

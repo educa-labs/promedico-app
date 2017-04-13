@@ -1,14 +1,17 @@
+<!-- Pagina de detalle de una noticia. Muestra el detalle de una
+noticia seleccionada anteriormente -->
 <ion-header>
-
   <ion-navbar>
+  	<!-- Titulo dentro del navbar -->
     <ion-title>{{ noticiaSeleccionada.title }}</ion-title>
   </ion-navbar>
-
 </ion-header>
 
-
 <ion-content padding>
+	<!-- Imagen de la noticia seleccionada -->
 	<img [src]="noticiaSeleccionada.foto">
+	<!-- Título de la noticia -->
 	<h1>{{ noticiaSeleccionada.title }}</h1>
+	<!-- Contenido de la noticia seleccionada -->
 	<p>{{ noticiaSeleccionada.texto }}</p>
 </ion-content>

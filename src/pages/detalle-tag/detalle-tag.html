@@ -1,34 +1,33 @@
+<!-- Detalle Tag: Pagina donde se muestra el detalle de un tag. 
+Además se muestran las actividades del usuario que tinen el tag seleccionado -->
 <ion-header>
-  <ion-navbar [color]="tagSeleccionado.color" no-border-bottom> 
-    <ion-title>{{ tagSeleccionado.titulo }}</ion-title>
-  </ion-navbar>
-
+	<!-- Colo de la barra de navegacion -->
+  	<ion-navbar [color]="tagSeleccionado.color" no-border-bottom> 
+    	<!-- Titulo de la barra de navegacion -->
+    	<ion-title>{{ tagSeleccionado.titulo }}</ion-title>
+  	</ion-navbar>
 </ion-header>
 
-
 <ion-content>
-	<div padding>
-		{{ tagSeleccionado.descripcion }}
-	</div>
+	<!-- Div para mostrar la descripción del tag seleccionado  -->
+	<div padding>{{ tagSeleccionado.descripcion }}</div>
 
+	<!-- Mostrar las actividades dentro del tag con tarjetas -->
 	<ion-card *ngFor="let item of actividades" (click)="verActividad($event, item)">
-
+		<!-- Contenido de la tarjeta -->
 	    <ion-card-content>
-	      <p><font color="#757575">
-	        {{ item.tipo[0] }} · {{ item.fecha }}
-	      </font></p>
-	      
-	      <ion-card-title>
-	        {{ item.titulo }}
-	      </ion-card-title>
-
-	      <div *ngFor="let p of item.tags" style="padding-right: 3px;">
-	        <button ion-button round strong="false" small padding [color]="p.color">
-	            {{p.title}}
-	        </button>
-	      </div>
-	          
+	    	<!-- Tipo de la actividad y fecha -->
+	      	<p><font color="#757575">
+	        	{{ item.tipo[0] }} · {{ item.fecha }}
+	      	</font></p>
+	     	<!-- Titulo de la actividad -->
+	    	<ion-card-title>{{ item.titulo }}</ion-card-title>
+	    	<!-- Repetir los tags de la actividad -->
+	      	<div *ngFor="let p of item.tags" style="padding-right: 3px;">
+	        	<button ion-button round strong="false" small padding [color]="p.color">
+	            	{{p.title}}
+	        	</button>
+	      	</div>      
 	    </ion-card-content>
   	</ion-card>
-
 </ion-content>
