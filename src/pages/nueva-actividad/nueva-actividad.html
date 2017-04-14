@@ -29,10 +29,10 @@ actividad -->
 		</ion-item>
 		<br>
 		<!-- Tipo de la actividad -->
-		<ion-item>
+		<ion-item class="selw75">
 			<ion-label>Tipo de actividad</ion-label>
-			<ion-select [(ngModel)]='credenciales.tipo'>
-			  <ion-option *ngFor="let p of tipos" [value]="p.id">{{ p.titulo }}</ion-option>
+			<ion-select [(ngModel)]='credenciales.tipo' style="width: auto">
+				<ion-option *ngFor="let p of tipos" [value]="p.id">{{ p.titulo }}</ion-option>
 			</ion-select>
 		</ion-item>
 		<br>	
