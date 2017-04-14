@@ -3,13 +3,13 @@ actividad -->
 <ion-header>
 	<ion-navbar>
 		<ion-title>Nueva Actividad</ion-title>
-	    <!-- Boton al final del lado derecho-->
-	    <ion-buttons end>
-	    	<!-- Boton de ticket para agregar actividad -->
-	      	<button ion-button icon-only (click)="nuevaActividad()">
-	        	<ion-icon name="checkmark" ></ion-icon>
-	      	</button>
-	    </ion-buttons>
+		<!-- Boton al final del lado derecho-->
+		<ion-buttons end>
+			<!-- Boton de ticket para agregar actividad -->
+			<button ion-button icon-only (click)="nuevaActividad()">
+				<ion-icon name="checkmark" ></ion-icon>
+			</button>
+		</ion-buttons>
 	</ion-navbar>
 </ion-header>
 
@@ -18,34 +18,34 @@ actividad -->
 	<ion-list>
 		<!-- input del titulo de la reflexion -->
 		<ion-item>
-		    <ion-label floating>Título</ion-label>
-		    <ion-input type="text" [(ngModel)]='credenciales.titulo' ></ion-input>
+			<ion-label floating>Título</ion-label>
+			<ion-input type="text" [(ngModel)]='credenciales.titulo' ></ion-input>
 		</ion-item>
 		<br>
 		<!-- Fecha de la reflexion -->
 		<ion-item>
-     		<ion-label>Fecha</ion-label>
-      		<ion-datetime displayFormat="DD MM YYYY" [(ngModel)]='credenciales.fecha'></ion-datetime>
-    	</ion-item>
-    	<br>
-    	<!-- Tipo de la actividad -->
+			<ion-label>Fecha</ion-label>
+			<ion-datetime displayFormat="DD MM YYYY" [(ngModel)]='credenciales.fecha'></ion-datetime>
+		</ion-item>
+		<br>
+		<!-- Tipo de la actividad -->
 		<ion-item>
-		    <ion-label>Tipo de actividad</ion-label>
-		    <ion-select [(ngModel)]='credenciales.tipo'>
-		      <ion-option *ngFor="let p of tipos" [value]="p.id">{{ p.titulo }}</ion-option>
-		    </ion-select>
+			<ion-label>Tipo de actividad</ion-label>
+			<ion-select [(ngModel)]='credenciales.tipo'>
+			  <ion-option *ngFor="let p of tipos" [value]="p.id">{{ p.titulo }}</ion-option>
+			</ion-select>
 		</ion-item>
 		<br>	
 		<!-- Tags: Repetir tags -->
 		<div>
 			<button *ngFor="let p of tags" ion-button [color]="p.color" [outline]="p.pico" round (click)="agregarTag(p)" strong="false" small>
-	  			{{p.titulo}}
+				{{p.titulo}}
 			</button>
 		</div> 
 		<!-- Textarea para la relexion de la actividad -->
 		<ion-item>
-	    	<ion-label floating>Reflexión</ion-label>
-	    	<ion-textarea rows="6" [(ngModel)]='credenciales.reflexion'></ion-textarea>
-    	</ion-item>
+			<ion-label floating>Reflexión</ion-label>
+			<ion-textarea rows="6" [(ngModel)]='credenciales.reflexion'></ion-textarea>
+		</ion-item>
 	</ion-list>          
 </ion-content>

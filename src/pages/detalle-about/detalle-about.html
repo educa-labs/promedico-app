@@ -8,6 +8,7 @@ pagina sobre nosotros. Muestra contenido de la tarjeta.  -->
 
 <ion-content padding>
 	<!-- Repetir el contenido del detalle de la tarjeta seleccionada -->
+	<img src="{{ tarjetaseleccionada.img }}"/>
 	<p *ngFor="let n of tarjetaseleccionada.detalle">
 		{{ n }}
 	</p>
