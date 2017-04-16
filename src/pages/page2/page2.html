@@ -20,7 +20,7 @@ usuario actual. Al apretar una actividad lleva al detalle -->
 		<ion-icon name="add"></ion-icon></button>
 	</ion-fab>
 	<!-- Tarjetas con las actividades repetidas -->
-	<ion-card *ngFor="let item of actividades">
+	<ion-card *ngFor="let item of actividades" (click)="itemTapped($event,item)">
 		<ion-card-content>
 			<!-- El tipo y la fecha de la actividad -->
 			<p><font color="#757575">

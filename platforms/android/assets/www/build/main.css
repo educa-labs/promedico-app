@@ -35400,6 +35400,26 @@ page-about .card-background-page .card-subtitle {
   color: #fff;
 }
 
+page-nueva-actividad .alert-wrapper {
+  min-width: 40px;
+}
+
+page-nueva-actividad .alert-radio-label {
+  white-space: normal !important;
+}
+
+page-nueva-actividad .alert-radio-label ion-select {
+  min-width: 100%;
+}
+
+page-nueva-actividad ion-item.selw75 ion-label {
+  min-width: 25%;
+}
+
+page-nueva-actividad ion-item.selw75 ion-select {
+  min-width: 100%;
+}
+
 page-page1 .puntaje {
   text-align: right;
 }

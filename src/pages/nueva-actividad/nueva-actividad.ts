@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, LoadingController } from 'ionic-angular';
+import { NavController, NavParams, LoadingController, AlertController } from 'ionic-angular';
 // Importar Providers
 import { Auth } from '../../providers/auth';
 import { ActividadesProvider } from '../../providers/actividades-provider';
@@ -23,6 +23,8 @@ export class NuevaActividadPage {
 	tags: any;
 	// Data al recibir al intentar agregar actividad
 	data: any;
+	// Mostrar alerta para 
+	showAlertMessage: any = true;
 	
 
 	constructor(
@@ -30,7 +32,8 @@ export class NuevaActividadPage {
 		public navParams: NavParams, 
 		private auth: Auth, 
 		public actividades_provider: ActividadesProvider,
-		public loading: LoadingController) {
+		public loading: LoadingController,
+		private alertCtrl: AlertController) {
 
 			this.credenciales = { 
 				token: this.auth.getUserInfo().token, 
@@ -43,6 +46,7 @@ export class NuevaActividadPage {
 			
 			// Cargar los tipos y tags de actividad
 			this.getTiposYTags();
+
 	}
 
 	public event = {
@@ -52,6 +56,9 @@ export class NuevaActividadPage {
 
 	public nuevaActividad() {
 		/* nuevaActividad: funcion para enviar los datos y crear la actividad */
+		// No mostrar alerta de irse
+		this.showAlertMessage = false;
+		// Llamar a la funcion de crear actividad
 		this.actividades_provider.nuevaActividad(this.credenciales)
 			.then(data => {
 				this.data = data
@@ -102,5 +109,54 @@ export class NuevaActividadPage {
 		}
 		/* Para imprimir la lista 
 		console.log(this.credenciales.tags) */
+	}
+
+	ionViewCanLeave() {
+		/* ionViewCanLeave: funcion interna de navCtrl de Ionic que permite
+		decidir si se puede salir de la pantalla actual o no. */
+
+		// Si la variable showAlertMessage es true, muestra una alerta si se
+		// desea realmente salir de la pagina actual o no
+		if(this.showAlertMessage) {
+			// Crea un popup con una alerta
+			let alertPopup = this.alertCtrl.create({
+				// Titulo del popup
+				title: 'Salir sin guardar',
+				// Mensaje del popup
+				message: "¿Estás seguro que deseas salir sin guardar la actividad actual?",
+				// Botones del popup
+				buttons: [{
+						text: 'Salir',
+						// Que ocurre cuando se apreta este boton
+						handler: () => {
+							// Se cierra el popup
+							alertPopup.dismiss()
+								// Despues de cerrar el popup
+								.then(() => {
+									// Llamar a la funcion salir de la pantalla
+									this.exitPage();
+							});         
+						}
+					},
+					{
+						text: 'Quedarse',
+						// Que ocurre al seleccionar el boton
+						handler: () => {}
+					}]
+			});
+
+			// Mostrar popup en pantalla
+			alertPopup.present();
+			// Retornar false para que no se salga de la pantalla actual
+			return false;
+		}
+	}
+
+	private exitPage() {
+		/* exitPage: funcion privada para salir de la pagina */
+		// Se vuelve falsa la alerta de popup
+		this.showAlertMessage = false;
+		// Se cierra la ventana
+		this.navCtrl.pop();
 	}
 }
