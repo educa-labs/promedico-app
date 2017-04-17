@@ -1,23 +1,8 @@
 page-nueva-actividad {
-	.alert-wrapper {
-   min-width: 40px;//what ever you like
-}
+	/* Comentario: esto sirve para sobreescribir
+	el scss de la alerta
 
-.alert-radio-label {
-   white-space: normal!important;
-   ion-select {
-   	min-width: 100%;
-   }
-}
-
-ion-item.selw75 {
-  ion-label {
-    min-width: 25%;
-  }
-  ion-select {
-    min-width: 100%;
-  }
-}
-
-
+	.alert-radio-label {
+    	white-space: normal;
+	} */
 }

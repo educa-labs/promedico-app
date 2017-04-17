@@ -20,22 +20,21 @@ actividad -->
 		<ion-item>
 			<ion-label floating>Título</ion-label>
 			<ion-input type="text" [(ngModel)]='credenciales.titulo' ></ion-input>
-		</ion-item>
-		<br>
+		</ion-item><br>
 		<!-- Fecha de la reflexion -->
 		<ion-item>
 			<ion-label>Fecha</ion-label>
 			<ion-datetime displayFormat="DD MM YYYY" [(ngModel)]='credenciales.fecha'></ion-datetime>
-		</ion-item>
-		<br>
+		</ion-item><br>
 		<!-- Tipo de la actividad -->
-		<ion-item class="selw75">
+		<ion-item>
 			<ion-label>Tipo de actividad</ion-label>
-			<ion-select [(ngModel)]='credenciales.tipo' style="width: auto">
-				<ion-option *ngFor="let p of tipos" [value]="p.id">{{ p.titulo }}</ion-option>
+			<ion-select [(ngModel)]='credenciales.tipo' >
+				<ion-option text-wrap *ngFor="let p of tipos" [value]="p.id" >
+					{{ p.titulo }}
+				</ion-option>
 			</ion-select>
-		</ion-item>
-		<br>	
+		</ion-item><br>
 		<!-- Tags: Repetir tags -->
 		<div>
 			<button *ngFor="let p of tags" ion-button [color]="p.color" [outline]="p.pico" round (click)="agregarTag(p)" strong="false" small>
