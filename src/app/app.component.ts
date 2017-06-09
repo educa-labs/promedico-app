@@ -33,7 +33,6 @@ export class MyApp {
     this.pages = [
       { title: 'Inicio', component: Page1 },
       { title: 'Mis Actividades', component: Page2 },
-      { title: 'Noticias' , component: NoticiasPage },
       { title: '¿Por qué DPC?', component: AboutPage }
     ];
 

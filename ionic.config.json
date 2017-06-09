@@ -1,12 +1,11 @@
 {
-  	"name": "Promedico",
-  	"app_id": "",
-  	"v2": true,
-  	"typescript": true,
-  	"proxies": [
-    	{
-	        "path": "/api",
-	        "proxyUrl": "http://api.steampowered.com"
-	    }
-	]
+  "name": "Promedico",
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://api.steampowered.com"
+    }
+  ],
+  "type": "ionic-angular"
 }

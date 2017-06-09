@@ -17,13 +17,10 @@ import { ActividadesProvider } from '../../providers/actividades-provider';
 
 export class NoticiasPage {
 
-	// Elemento para navegacion entre noticias
-	noticiaSeleccionada: any;
-
-
-  persona : any;
-
-	noticias: Array<{id: any, foto: any, title: string, fecha: any, texto: string, favorito: boolean}>
+    // Elemento para navegacion entre noticias
+    noticiaSeleccionada: any;
+    persona : any;
+    noticias: Array<{id: any, foto: any, title: string, fecha: any, texto: string, favorito: boolean}>
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public ActividadesProvider: ActividadesProvider) {
     // Navegación entre noticias

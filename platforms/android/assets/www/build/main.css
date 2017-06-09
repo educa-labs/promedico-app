@@ -35378,6 +35378,18 @@ sub {
   }
 }
 
+.alert-ios .alert-radio-label {
+  white-space: normal;
+}
+
+.alert-md .alert-radio-label {
+  white-space: normal;
+}
+
+.alert-wp .alert-radio-label {
+  white-space: normal;
+}
+
 page-about .card-background-page ion-card {
   position: relative;
   text-align: center;
@@ -35400,24 +35412,13 @@ page-about .card-background-page .card-subtitle {
   color: #fff;
 }
 
-page-nueva-actividad .alert-wrapper {
-  min-width: 40px;
-}
+page-nueva-actividad {
+  /* Comentario: esto sirve para sobreescribir
+	el scss de la alerta
 
-page-nueva-actividad .alert-radio-label {
-  white-space: normal !important;
-}
-
-page-nueva-actividad .alert-radio-label ion-select {
-  min-width: 100%;
-}
-
-page-nueva-actividad ion-item.selw75 ion-label {
-  min-width: 25%;
-}
-
-page-nueva-actividad ion-item.selw75 ion-select {
-  min-width: 100%;
+	.alert-radio-label {
+    	white-space: normal;
+	} */
 }
 
 page-page1 .puntaje {
